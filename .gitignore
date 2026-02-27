@@ -1,6 +1,11 @@
+#  Tells git what not to track
+
+# Generated Jekyll output and caches.
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Local IDE settings.
 .idea/
