@@ -1,14 +1,16 @@
 # Site-wide Jekyll configuration and metadata.
-title: "Hazel's Portfolio"
+title: "Hazel Hidayah"
 subtitle: "When Hazel’s nerdy brain meets her inner art kid"
 description: "Projects and work by Hazel"
 
 # GitHub Pages URL settings.
 baseurl: ""
-url: "hazelhidayah.github.io"
+url: "https://hazelhidayah.github.io"
 github_username: "hazelhidayah"
+linkedin_url: "https://www.linkedin.com/in/hazelhidayah/"
+email: "hidayah@u.nus.edu"
 
 # Theme and plugin settings.
-theme: minima
+# We use custom layouts/includes/CSS, so no theme gem is needed.
 plugins:
   - jekyll-feed

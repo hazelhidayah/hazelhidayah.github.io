@@ -2,18 +2,14 @@
 layout: page
 title: About
 permalink: /about/
+hero_kicker: The real about me
+hero_subtitle: A few things that shaped how I build, design, and think.
 ---
 
-<!-- About page content rendered at `/about/`. -->
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I’m Hazel / Hidayah — a Computer Science student at NUS with a growing passion for UI/UX, design and
+building stuff that actually make life easier/increase quality of life. I used to study Mass
+Communication at Ngee Ann Polytechnic so most of my time now has been dedicated to beating imposter
+syndrome!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I find anything design and computer related fascinating so I’m dedicating my life to learning
+everything I can and nerding out about it :)

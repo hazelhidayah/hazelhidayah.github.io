@@ -1,0 +1,28 @@
+{% assign hero_title = include.title | default: page.hero_title | default: page.title %}
+{% assign hero_kicker = include.kicker | default: page.hero_kicker %}
+{% assign hero_subtitle = include.subtitle | default: page.hero_subtitle | default: page.description %}
+
+<section class="section hero hero--page">
+  <div class="hero-bg" aria-hidden="true"></div>
+
+  <div class="section-inner hero-grid hero-grid--center">
+    <div class="hero-content">
+      {% if hero_kicker %}
+      <div class="section-label">{{ hero_kicker }}</div>
+      {% endif %}
+
+      <h1 class="hero-title">{{ hero_title }}</h1>
+
+      {% if hero_subtitle %}
+      <p class="hero-copy hero-copy--center">{{ hero_subtitle }}</p>
+      {% endif %}
+
+      {% if include.cta_href and include.cta_label %}
+      <div class="hero-actions">
+        <a href="{{ include.cta_href | relative_url }}" class="btn-brush">{{ include.cta_label }}</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+

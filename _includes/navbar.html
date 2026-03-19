@@ -1,0 +1,64 @@
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="brand-mark">
+      <span class="brand-symbol">
+        <i class="fa-solid fa-house" aria-hidden="true"></i>
+        <span class="sr-only">Home</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="{{ '/experiences/' | relative_url }}">Experience</a></li>
+        <li><a href="{{ '/works/#tech-stuff' | relative_url }}">Tech Stuff</a></li>
+        <li><a href="{{ '/works/#creative-work' | relative_url }}">Creative Works</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-social">
+      <a
+        href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}"
+        class="icon-link icon-btn"
+        download
+        aria-label="Download resume"
+        data-resume-download
+      >
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+        <span class="sr-only">Download resume</span>
+      </a>
+      {% if site.email %}
+      <a
+        href="mailto:{{ site.email }}"
+        class="icon-link icon-btn"
+        aria-label="Email"
+      >
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <span class="sr-only">Email</span>
+      </a>
+      {% endif %}
+      {% if site.github_username %}
+      <a
+        href="https://github.com/{{ site.github_username }}"
+        class="icon-link icon-btn"
+        aria-label="GitHub"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+      {% endif %}
+      {% if site.linkedin_url %}
+      <a
+        href="{{ site.linkedin_url }}"
+        class="icon-link icon-btn"
+        aria-label="LinkedIn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</header>
+
