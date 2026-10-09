@@ -1402,6 +1402,10 @@ body::before {
   background: var(--paper-deep);
 }
 
+.toolbox .section-number {
+  color: #a91f17;
+}
+
 .toolbox__heading {
   display: grid;
   grid-template-columns: 1fr 0.7fr;
