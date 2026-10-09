@@ -1082,6 +1082,18 @@ body::before {
   color: var(--paper);
 }
 
+.btn--paper {
+  border: 1px solid var(--paper);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.btn--paper:hover,
+.btn--paper:focus-visible {
+  background: transparent;
+  color: var(--paper);
+}
+
 .btn--dark:hover span {
   transform: translate(3px, 3px);
 }
@@ -1247,6 +1259,24 @@ body::before {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
   gap: clamp(3rem, 8vw, 8rem);
+}
+
+.about-preview__heading {
+  position: relative;
+  min-height: 18rem;
+  padding-right: 4rem;
+}
+
+.about-vertical {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  color: var(--red-on-dark);
+  font-family: "Noto Serif SC", var(--serif);
+  font-size: clamp(1.2rem, 2vw, 1.7rem);
+  letter-spacing: 0.3em;
+  writing-mode: vertical-rl;
 }
 
 .about-preview h2,
@@ -1600,6 +1630,10 @@ body::before {
   .about-preview__grid,
   .toolbox__heading {
     grid-template-columns: 1fr;
+  }
+
+  .about-preview__heading {
+    min-height: auto;
   }
 
   .home-hero {

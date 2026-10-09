@@ -34,9 +34,10 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
 
 <section class="about-preview" id="about-preview">
   <div class="section-inner about-preview__grid">
-    <div>
+    <div class="about-preview__heading">
       <p class="section-number">01 / About</p>
       <h2>One brain,<br /><em>two worlds.</em></h2>
+      <p class="about-vertical" lang="zh">好奇心</p>
     </div>
     <div class="about-preview__body">
       <p class="lead">
@@ -49,8 +50,8 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         learning a tool I definitely did not need to pick up at 2am.
       </p>
       <div class="about-actions">
-        <a href="{{ '/about/' | relative_url }}" class="text-link">The real about me <span aria-hidden="true">→</span></a>
-        <a href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}" class="text-link" target="_blank" rel="noopener noreferrer">View résumé <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/about/' | relative_url }}" class="text-link">Read my story <span aria-hidden="true">→</span></a>
+        <a href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}" class="btn btn--paper" target="_blank" rel="noopener noreferrer">View résumé <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </div>
