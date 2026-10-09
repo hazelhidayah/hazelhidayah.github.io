@@ -1705,6 +1705,11 @@ body::before {
 }
 
 @media (max-width: 640px) {
+  .site-header {
+    background: var(--paper);
+    backdrop-filter: none;
+  }
+
   .section-inner {
     width: min(calc(100% - 2rem), var(--content-max));
   }
