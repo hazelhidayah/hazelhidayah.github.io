@@ -6,9 +6,9 @@
 
     <nav class="main-nav" aria-label="Primary navigation">
       <ul>
-        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/works/' | relative_url }}">Work</a></li>
-        <li><a href="{{ '/experiences/' | relative_url }}">Experience</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" data-nav-section="about-preview"{% if page.url == '/about/' %} class="is-active" aria-current="page"{% endif %}>About</a></li>
+        <li><a href="{{ '/works/' | relative_url }}" data-nav-section="selected-work"{% if page.url == '/works/' %} class="is-active" aria-current="page"{% endif %}>Work</a></li>
+        <li><a href="{{ '/experiences/' | relative_url }}"{% if page.url == '/experiences/' %} class="is-active" aria-current="page"{% endif %}>Experience</a></li>
       </ul>
     </nav>
 
@@ -21,7 +21,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-github"></i>
+        <i class="fab fa-github" aria-hidden="true"></i>
       </a>
       {% endif %}
       {% if site.linkedin_url %}
@@ -32,10 +32,10 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
       </a>
       {% endif %}
-      <a href="{{ '/#contact' | relative_url }}" class="nav-cta">Let’s talk</a>
+      <a href="{{ '/#contact' | relative_url }}" class="nav-cta" data-nav-section="contact">Let’s talk</a>
     </div>
   </div>
 </header>

@@ -830,6 +830,7 @@ p {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 body {
@@ -849,23 +850,48 @@ body::before {
   color: #fff;
 }
 
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 200;
+  padding: 0.7rem 1rem;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  text-decoration: none;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:where(a, button, [tabindex]):focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: 4px;
+}
+
 .section-inner {
   width: min(calc(100% - 3rem), var(--content-max));
   max-width: none;
 }
 
 .site-header {
-  position: absolute;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   width: 100%;
-  background: transparent;
-  border: 0;
-  backdrop-filter: none;
+  background: rgba(241, 238, 232, 0.94);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(14px);
 }
 
 .nav-inner {
   max-width: var(--content-max);
   padding: 1.5rem 0;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 0;
 }
 
 .seal {
@@ -910,8 +936,14 @@ body::before {
 }
 
 .main-nav a:hover,
-.main-nav a:focus-visible {
+.main-nav a:focus-visible,
+.main-nav a.is-active {
   background: transparent;
+}
+
+.main-nav a.is-active::after {
+  opacity: 1;
+  transform: scaleX(1);
 }
 
 .nav-social {
@@ -943,11 +975,11 @@ body::before {
 
 .home-hero {
   position: relative;
-  min-height: min(50rem, 92svh);
+  min-height: calc(100svh - 5.75rem);
   display: grid;
   align-items: center;
   overflow: hidden;
-  padding: clamp(7rem, 12vh, 8.5rem) 0 clamp(3.5rem, 7vh, 5rem);
+  padding: clamp(2.75rem, 6vh, 4.5rem) 0 clamp(3.5rem, 7vh, 5rem);
 }
 
 .home-hero::before {
@@ -1572,7 +1604,7 @@ body::before {
 
   .home-hero {
     min-height: auto;
-    padding: 8rem 0 4rem;
+    padding: 4rem 0;
   }
 
   .home-hero__grid {
@@ -1627,6 +1659,10 @@ body::before {
     color: var(--paper);
   }
 
+  .main-nav a.is-active {
+    color: var(--red-on-dark);
+  }
+
   .nav-social .icon-link {
     display: none;
   }
@@ -1636,7 +1672,7 @@ body::before {
   }
 
   .home-hero {
-    padding: 7rem 0 3.5rem;
+    padding: 3.25rem 0 3.5rem;
   }
 
   .home-hero::before {
