@@ -811,6 +811,22 @@ p {
    Portfolio refresh
    ========================= */
 
+@font-face {
+  font-family: "Noto Serif SC";
+  src: url("../fonts/noto-serif-sc-600.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  src: url("../fonts/noto-sans-sc-500.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
 :root {
   --ink: #0b0b0b;
   --paper: #f1eee8;
@@ -1011,6 +1027,11 @@ body::before {
   text-transform: uppercase;
 }
 
+.section-number__han {
+  font-family: "Noto Sans SC", var(--sans);
+  font-weight: 500;
+}
+
 .home-hero h1,
 .about-preview h2,
 .section-heading h2,
@@ -1193,7 +1214,7 @@ body::before {
   right: -1.5rem;
   bottom: 2rem;
   color: var(--red);
-  font-family: var(--serif);
+  font-family: "Noto Serif SC", var(--serif);
   font-size: 1.8rem;
   writing-mode: vertical-rl;
 }

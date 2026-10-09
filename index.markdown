@@ -35,7 +35,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
 <section class="about-preview" id="about-preview">
   <div class="section-inner about-preview__grid">
     <div class="about-preview__heading">
-      <p class="section-number">01 / About</p>
+      <p class="section-number">01 / About <span class="section-number__han" lang="zh">· 一</span></p>
       <h2>One brain,<br /><em>two worlds.</em></h2>
       <p class="about-vertical" lang="zh">好奇心</p>
     </div>
@@ -61,7 +61,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
   <div class="section-inner">
     <div class="section-heading">
       <div>
-        <p class="section-number">02 / Selected work</p>
+        <p class="section-number">02 / Selected work <span class="section-number__han" lang="zh">· 二</span></p>
         <h2>Things I’m<br /><em>proud of.</em></h2>
       </div>
       <a href="{{ '/works/' | relative_url }}" class="text-link">See all work <span aria-hidden="true">→</span></a>
@@ -108,7 +108,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
   <div class="section-inner">
     <div class="toolbox__heading">
       <div>
-      <p class="section-number">03 / Toolbox</p>
+      <p class="section-number">03 / Toolbox <span class="section-number__han" lang="zh">· 三</span></p>
       <h2>What I make<br /><em>things with.</em></h2>
       </div>
       <p>
@@ -172,7 +172,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
 
 <section class="contact-strip" id="contact">
   <div class="section-inner contact-strip__inner">
-    <p class="section-number">04 / Say hello</p>
+    <p class="section-number">04 / Say hello <span class="section-number__han" lang="zh">· 四</span></p>
     <h2>Have an idea?<br /><em>Let’s make it real.</em></h2>
     <a href="mailto:{{ site.email }}" class="contact-email">{{ site.email }} <span aria-hidden="true">↗</span></a>
   </div>
