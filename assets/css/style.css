@@ -924,24 +924,23 @@ body::before {
 
 .home-hero {
   position: relative;
-  min-height: 100svh;
+  min-height: min(50rem, 92svh);
   display: grid;
   align-items: center;
   overflow: hidden;
-  padding: 8rem 0 4rem;
+  padding: clamp(7rem, 12vh, 8.5rem) 0 clamp(3.5rem, 7vh, 5rem);
 }
 
 .home-hero::before {
   content: "";
   position: absolute;
-  width: 42vw;
-  height: 42vw;
-  min-width: 450px;
-  min-height: 450px;
-  right: -14vw;
-  top: -12vw;
-  border: 1px solid rgba(182, 60, 50, 0.2);
+  width: clamp(18rem, 34vw, 30rem);
+  aspect-ratio: 1;
+  right: clamp(-9rem, -8vw, -4rem);
+  top: clamp(3rem, 7vh, 5rem);
+  border: 1px solid rgba(182, 60, 50, 0.32);
   border-radius: 50%;
+  box-shadow: inset 0 0 0 10px rgba(24, 24, 23, 0.015);
 }
 
 .home-hero__grid {
@@ -1549,7 +1548,8 @@ body::before {
   }
 
   .home-hero {
-    padding-top: 10rem;
+    min-height: auto;
+    padding: 8rem 0 4rem;
   }
 
   .home-hero__grid {
@@ -1613,7 +1613,13 @@ body::before {
   }
 
   .home-hero {
-    padding-top: 8rem;
+    padding: 7rem 0 3.5rem;
+  }
+
+  .home-hero::before {
+    width: 17rem;
+    right: -9rem;
+    top: 4.5rem;
   }
 
   .home-hero h1 {
