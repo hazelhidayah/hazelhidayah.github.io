@@ -812,12 +812,16 @@ p {
    ========================= */
 
 :root {
+  --ink: #0b0b0b;
   --paper: #f1eee8;
   --paper-deep: #e5e0d6;
-  --charcoal: #181817;
-  --grey: #68645e;
-  --red: #b63c32;
-  --line: rgba(24, 24, 23, 0.18);
+  --red: #c8281e;
+  --red-on-dark: #ff786f;
+  --muted: #4f4b46;
+  --muted-on-dark: #bdb8af;
+  --charcoal: var(--ink);
+  --grey: var(--muted);
+  --line: rgba(11, 11, 11, 0.2);
   --serif: "Playfair Display", Georgia, serif;
   --sans: "Manrope", system-ui, sans-serif;
   --mono: "DM Mono", monospace;
@@ -938,7 +942,7 @@ body::before {
   aspect-ratio: 1;
   right: clamp(-9rem, -8vw, -4rem);
   top: clamp(3rem, 7vh, 5rem);
-  border: 1px solid rgba(182, 60, 50, 0.32);
+  border: 1px solid rgba(200, 40, 30, 0.32);
   border-radius: 50%;
   box-shadow: inset 0 0 0 10px rgba(24, 24, 23, 0.015);
 }
@@ -1001,7 +1005,7 @@ body::before {
 
 .hero-intro {
   max-width: 34rem;
-  color: var(--grey);
+  color: var(--muted);
   font-size: clamp(1rem, 1.5vw, 1.15rem);
 }
 
@@ -1176,8 +1180,8 @@ body::before {
 .about-preview {
   position: relative;
   overflow: hidden;
-  background: var(--charcoal);
-  color: rgba(241, 238, 232, 0.68);
+  background: var(--ink);
+  color: var(--muted-on-dark);
 }
 
 .about-preview::after {
@@ -1217,6 +1221,10 @@ body::before {
 
 .about-preview .text-link {
   color: var(--paper);
+}
+
+.about-preview .section-number {
+  color: var(--red-on-dark);
 }
 
 .section-heading {
@@ -1402,8 +1410,8 @@ body::before {
 
 .site-footer {
   padding: 2rem 0;
-  background: var(--charcoal);
-  color: rgba(241, 238, 232, 0.58);
+  background: var(--ink);
+  color: var(--muted-on-dark);
 }
 
 .footer-inner {
