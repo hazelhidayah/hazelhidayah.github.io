@@ -119,7 +119,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
 
     <div class="skill-directory" aria-label="Skills and tools">
       <article class="skill-group">
-        <div class="skill-group__number">01</div>
+        <div class="skill-group__marker" aria-hidden="true">A</div>
         <h3>Design tools</h3>
         <ul class="skill-tags">
           <li><i class="fa-brands fa-figma" aria-hidden="true"></i> Figma</li>
@@ -130,7 +130,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       </article>
 
       <article class="skill-group">
-        <div class="skill-group__number">02</div>
+        <div class="skill-group__marker" aria-hidden="true">B</div>
         <h3>Languages</h3>
         <ul class="skill-tags">
           <li><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript</li>
@@ -144,7 +144,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       </article>
 
       <article class="skill-group">
-        <div class="skill-group__number">03</div>
+        <div class="skill-group__marker" aria-hidden="true">C</div>
         <h3>Development tools</h3>
         <ul class="skill-tags">
           <li><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</li>
@@ -155,7 +155,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       </article>
 
       <article class="skill-group">
-        <div class="skill-group__number">04</div>
+        <div class="skill-group__marker" aria-hidden="true">D</div>
         <h3>UX &amp; product</h3>
         <ul class="skill-tags">
           <li>User research</li>

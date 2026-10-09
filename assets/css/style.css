@@ -1411,7 +1411,7 @@ body::before {
   background: rgba(255, 255, 255, 0.12);
 }
 
-.skill-group__number {
+.skill-group__marker {
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -1757,7 +1757,7 @@ body::before {
     padding: 1.5rem;
   }
 
-  .skill-group__number {
+  .skill-group__marker {
     top: 1.5rem;
     right: 1.5rem;
   }
