@@ -8,6 +8,10 @@
       name="description"
       content="{{ page.description | default: site.description }}"
     />
+    <meta name="theme-color" content="#f1eee8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
     <link
       rel="stylesheet"
@@ -28,46 +32,5 @@
       {% include footer.html %}
     </div>
 
-    <button
-      type="button"
-      class="back-to-top"
-      data-back-to-top
-      aria-label="Back to the top"
-      title="Back to the top"
-    >
-      Back to the top ^
-    </button>
-
-    <script>
-      (() => {
-        const btn = document.querySelector("[data-back-to-top]");
-        if (!btn) return;
-
-        const toggle = () => {
-          const show = window.scrollY > 700;
-          btn.classList.toggle("is-visible", show);
-        };
-
-        toggle();
-        window.addEventListener("scroll", toggle, { passive: true });
-
-        btn.addEventListener("click", () => {
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-      })();
-    </script>
-
-    <script>
-      (() => {
-        const link = document.querySelector("[data-resume-download]");
-        if (!link) return;
-
-        link.addEventListener("click", (e) => {
-          const ok = window.confirm("This will download Hazel’s resume PDF. Continue?");
-          if (!ok) e.preventDefault();
-        });
-      })();
-    </script>
   </body>
 </html>
-

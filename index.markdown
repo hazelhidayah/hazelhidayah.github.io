@@ -1,173 +1,178 @@
 ---
 layout: default
 title: Home
+description: "Hazel Hidayah — Computer Science student, designer, and creative technologist in Singapore."
 ---
 
-<section class="section hero">
-  <div class="hero-bg" aria-hidden="true"></div>
-  <div class="section-inner hero-grid hero-grid--center">
-    <div class="hero-content">
-      <h1 class="hero-title">I'm Hazel / Hidayah</h1>
-      <div class="hero-subtitle">CODER | DESIGNER | STUDENT</div>
-      <p class="hero-copy">
-        Quietly obsessed with interfaces, tiny details and projects that make everyday life feel a
-        little softer and more intentional.
+<section class="home-hero" id="top">
+  <div class="ink-cloud ink-cloud--top" aria-hidden="true"></div>
+  <div class="section-inner home-hero__grid">
+    <div class="home-hero__copy reveal">
+      <p class="eyebrow">Hello, I’m</p>
+      <h1>Hazel<br /><em>Hidayah.</em></h1>
+      <p class="hero-role">Coder <span>·</span> Designer <span>·</span> Storyteller</p>
+      <p class="hero-intro">
+        I blend code, design and a little bit of chaos to make digital experiences that feel
+        thoughtful, useful and distinctly human.
       </p>
       <div class="hero-actions">
-        <a href="{{ '/about/' | relative_url }}" class="btn-brush">The real about me</a>
+        <a href="#selected-work" class="btn btn--dark">Explore my work <span aria-hidden="true">↘</span></a>
+        <a href="{{ '/about/' | relative_url }}" class="text-link">More about me <span aria-hidden="true">→</span></a>
       </div>
     </div>
+
+    <div class="portrait-wrap reveal reveal--delay" aria-label="Portrait of Hazel Hidayah">
+      <span class="portrait-note">based in Singapore</span>
+      <div class="portrait-frame">
+        <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="Hazel Hidayah" />
+      </div>
+      <span class="portrait-mark" aria-hidden="true">好奇心</span>
+    </div>
   </div>
+  <a class="scroll-cue" href="#about-preview" aria-label="Scroll to introduction">scroll <span>↓</span></a>
 </section>
 
-<section class="section background-section" id="background">
-  <div class="section-inner background-grid">
+<section class="about-preview" id="about-preview">
+  <div class="section-inner about-preview__grid">
     <div>
-      <div class="section-label">Background</div>
-      <h2 class="section-title">A bit about me</h2>
-      <div class="background-text">
-        <p>
-          I’m a Computer Science student at NUS with a growing passion for UI/UX, design and
-          building stuff that actually make life easier/increase quality of life. I used to study
-          Mass Communication at Ngee Ann Polytechnic so most of my time now has been dedicated to
-          beating imposter syndrome!
-        </p>
-        <p>
-          I find anything design and computer related fascinating so I’m dedicating my life to
-          learning everything I can and nerding out about it :)
-        </p>
-      </div>
-      <div class="resume-actions">
-        <a
-          href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}"
-          class="btn-brush"
-          target="_blank"
-          rel="noopener noreferrer"
-          >View Tech Resume</a
-        >
-      </div>
+      <p class="section-number">01 / About</p>
+      <h2>One brain,<br /><em>two worlds.</em></h2>
     </div>
-
-    <div class="background-photo">
-      <img
-        src="{{ '/assets/img/profile.png' | relative_url }}"
-        alt="Hazel Hidayah"
-        class="background-photo-img"
-        loading="lazy"
-      />
+    <div class="about-preview__body">
+      <p class="lead">
+        I’m a Computer Science student at NUS who started out in Mass Communication — which means
+        I care as much about the story and the person as I do about the system underneath.
+      </p>
+      <p>
+        I’m drawn to UI/UX, front-end development and anything that turns a messy problem into a
+        calm, clear experience. When I’m not debugging, I’m probably designing, illustrating or
+        learning a tool I definitely did not need to pick up at 2am.
+      </p>
+      <div class="about-actions">
+        <a href="{{ '/about/' | relative_url }}" class="text-link">The real about me <span aria-hidden="true">→</span></a>
+        <a href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}" class="text-link" target="_blank" rel="noopener noreferrer">View résumé <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section works-section" id="main-works">
+<section class="selected-work" id="selected-work">
   <div class="section-inner">
-    <div class="works-header">
+    <div class="section-heading">
       <div>
-        <div class="section-label">Main Works</div>
-        <h2 class="section-title">Proudest things so far</h2>
+        <p class="section-number">02 / Selected work</p>
+        <h2>Things I’m<br /><em>proud of.</em></h2>
       </div>
+      <a href="{{ '/works/' | relative_url }}" class="text-link">See all work <span aria-hidden="true">→</span></a>
     </div>
 
-    <div class="works-carousel" aria-label="Highlighted projects">
-      <article class="work-card">
-        <div class="work-thumb tech-1"></div>
-        <div class="work-meta">Tech Stuff</div>
-        <h3 class="work-title">Study Companion Dashboard</h3>
-        <p class="work-desc">
-          A minimal web app that tracks study sessions, tiny wins and energy levels in a single
-          clean interface.
-        </p>
-        <div class="work-links">
-          <a href="{{ '/works/#tech-stuff' | relative_url }}" class="btn-ghost">View details</a>
-        </div>
+    <div class="project-list">
+      <a class="project-row" href="https://github.com/hazelhidayah/Context-Management-Lite" target="_blank" rel="noopener noreferrer">
+        <span class="project-index">01</span>
+        <span class="project-info">
+          <span class="project-kicker">AI systems · Summer research</span>
+          <strong>Context Management Lite</strong>
+          <span>Human-controlled memory for reliable, branching AI conversations.</span>
+        </span>
+        <span class="project-year">2026</span>
+        <span class="project-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="project-row" href="https://github.com/SQ77/factSnap" target="_blank" rel="noopener noreferrer">
+        <span class="project-index">02</span>
+        <span class="project-info">
+          <span class="project-kicker">Hackathon finalist · Mobile AI/OCR</span>
+          <strong>FactSnap</strong>
+          <span>A social fact-checking app built with team “plebs” to make digital literacy engaging.</span>
+        </span>
+        <span class="project-year">2025</span>
+        <span class="project-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="project-row" href="https://xd.adobe.com/view/0da1ccb5-7e4d-4a56-9f38-09b1e9cfe299-58f2/" target="_blank" rel="noopener noreferrer">
+        <span class="project-index">03</span>
+        <span class="project-info">
+          <span class="project-kicker">UI/UX · Web platform</span>
+          <strong>SCDF Website Redesign</strong>
+          <span>Research-led redesign for a clearer, calmer public-service experience.</span>
+        </span>
+        <span class="project-year">2025</span>
+        <span class="project-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="toolbox" id="toolbox">
+  <div class="section-inner">
+    <div class="toolbox__heading">
+      <div>
+      <p class="section-number">03 / Toolbox</p>
+      <h2>What I make<br /><em>things with.</em></h2>
+      </div>
+      <p>
+        A mix of visual tools, programming languages and product-thinking skills I use to move
+        from a rough idea to something people can actually use.
+      </p>
+    </div>
+
+    <div class="skill-directory" aria-label="Skills and tools">
+      <article class="skill-group">
+        <div class="skill-group__number">01</div>
+        <h3>Design tools</h3>
+        <ul class="skill-tags">
+          <li><i class="fa-brands fa-figma" aria-hidden="true"></i> Figma</li>
+          <li><span class="skill-abbr" aria-hidden="true">Ps</span> Photoshop</li>
+          <li><span class="skill-abbr" aria-hidden="true">Ai</span> Illustrator</li>
+          <li><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i> Prototyping</li>
+        </ul>
       </article>
 
-      <article class="work-card">
-        <div class="work-thumb creative-1"></div>
-        <div class="work-meta">Creative</div>
-        <h3 class="work-title">Ink &amp; Neon Poster Series</h3>
-        <p class="work-desc">
-          A set of digital posters mixing sumi‑e textures with bold typography and glitchy overlays.
-        </p>
-        <div class="work-links">
-          <a href="{{ '/works/#creative-work' | relative_url }}" class="btn-ghost">View details</a>
-        </div>
+      <article class="skill-group">
+        <div class="skill-group__number">02</div>
+        <h3>Languages</h3>
+        <ul class="skill-tags">
+          <li><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript</li>
+          <li><i class="fa-brands fa-python" aria-hidden="true"></i> Python</li>
+          <li><i class="fa-brands fa-java" aria-hidden="true"></i> Java</li>
+          <li><span class="skill-abbr" aria-hidden="true">C</span> C</li>
+          <li><span class="skill-abbr" aria-hidden="true">SQL</span> SQL</li>
+          <li><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML</li>
+          <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS</li>
+        </ul>
       </article>
 
-      <article class="work-card">
-        <div class="work-thumb tech-2"></div>
-        <div class="work-meta">Tech Stuff</div>
-        <h3 class="work-title">Campus Habit Tracker</h3>
-        <p class="work-desc">
-          Mobile‑first tracker built for students who want lightweight nudges instead of noisy
-          notifications.
-        </p>
-        <div class="work-links">
-          <a href="{{ '/works/#tech-stuff' | relative_url }}" class="btn-ghost">View details</a>
-        </div>
+      <article class="skill-group">
+        <div class="skill-group__number">03</div>
+        <h3>Development tools</h3>
+        <ul class="skill-tags">
+          <li><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</li>
+          <li><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</li>
+          <li><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker</li>
+          <li><i class="fa-solid fa-terminal" aria-hidden="true"></i> CLI / Unix</li>
+        </ul>
+      </article>
+
+      <article class="skill-group">
+        <div class="skill-group__number">04</div>
+        <h3>UX &amp; product</h3>
+        <ul class="skill-tags">
+          <li>User research</li>
+          <li>Usability testing</li>
+          <li>Information architecture</li>
+          <li>Wireframing</li>
+          <li>Visual storytelling</li>
+          <li>Accessibility</li>
+        </ul>
       </article>
     </div>
   </div>
 </section>
 
-<section class="section skills-section" id="skills">
-  <div class="section-inner">
-    <div class="works-header">
-      <div>
-        <div class="section-label">Skillset deck</div>
-        <h2 class="section-title">Tools &amp; tech I use</h2>
-      </div>
-    </div>
-
-    <div class="skills-grid" aria-label="Skillset deck">
-      <article class="skill-card">
-        <div class="skill-icon"><i class="fa-solid fa-pen-nib" aria-hidden="true"></i></div>
-        <div class="skill-name">Figma</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><i class="fa-solid fa-image" aria-hidden="true"></i></div>
-        <div class="skill-name">Adobe Photoshop</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><i class="fa-solid fa-bezier-curve" aria-hidden="true"></i></div>
-        <div class="skill-name">Adobe Illustrator</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><span class="skill-text-icon">Py</span></div>
-        <div class="skill-name">Python</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><span class="skill-text-icon">C</span></div>
-        <div class="skill-name">C</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><span class="skill-text-icon">J</span></div>
-        <div class="skill-name">Java</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><span class="skill-text-icon">JS</span></div>
-        <div class="skill-name">JavaScript</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><span class="skill-text-icon">CSS</span></div>
-        <div class="skill-name">CSS</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><span class="skill-text-icon">SQL</span></div>
-        <div class="skill-name">SQL</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><i class="fa-brands fa-git-alt" aria-hidden="true"></i></div>
-        <div class="skill-name">Git</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
-        <div class="skill-name">GitHub</div>
-      </article>
-      <article class="skill-card">
-        <div class="skill-icon"><i class="fa-solid fa-terminal" aria-hidden="true"></i></div>
-        <div class="skill-name">CLI / Unix</div>
-      </article>
-    </div>
+<section class="contact-strip" id="contact">
+  <div class="section-inner contact-strip__inner">
+    <p class="section-number">04 / Say hello</p>
+    <h2>Have an idea?<br /><em>Let’s make it real.</em></h2>
+    <a href="mailto:{{ site.email }}" class="contact-email">{{ site.email }} <span aria-hidden="true">↗</span></a>
   </div>
 </section>
