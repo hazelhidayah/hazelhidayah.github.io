@@ -174,6 +174,11 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
   <div class="section-inner contact-strip__inner">
     <p class="section-number">04 / Say hello <span class="section-number__han" lang="zh">· 四</span></p>
     <h2>Have an idea?<br /><em>Let’s make it real.</em></h2>
-    <a href="mailto:{{ site.email }}" class="contact-email">{{ site.email }} <span aria-hidden="true">↗</span></a>
+    <div class="contact-links" aria-label="Contact and profile links">
+      <a href="mailto:{{ site.email }}" class="contact-link">Email <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/{{ site.github_username }}" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.linkedin_url }}" class="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}" class="contact-link" target="_blank" rel="noopener noreferrer">Résumé <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
 </section>
