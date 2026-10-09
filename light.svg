@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+  <title id="title">Hazel Hidayah animated profile banner for light mode</title>
+  <desc id="desc">An editorial animated banner introducing Hazel as a coder, designer, and storyteller.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b63c32"/>
+      <stop offset="1" stop-color="#dc7a46"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="900" height="240" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="240" fill="#f1eee8"/>
+
+    <g fill="none" stroke="#d8d2c7" stroke-width="1" opacity="0.8">
+      <path d="M0 48H900M0 96H900M0 144H900M0 192H900"/>
+      <path d="M90 0V240M180 0V240M270 0V240M360 0V240M450 0V240M540 0V240M630 0V240M720 0V240M810 0V240"/>
+    </g>
+
+    <circle cx="786" cy="118" r="72" fill="none" stroke="#b63c32" stroke-width="1" opacity="0.2">
+      <animate attributeName="r" values="58;78;58" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.06;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="786" cy="118" r="40" fill="#b63c32" opacity="0.05">
+      <animate attributeName="r" values="34;49;34" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.09;0.02;0.09" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M653 118C695 70 739 70 786 118C833 166 869 157 914 109" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="310" stroke-dashoffset="310">
+      <animate attributeName="stroke-dashoffset" values="310;0;0;-310" keyTimes="0;0.35;0.75;1" dur="6s" repeatCount="indefinite"/>
+    </path>
+
+    <g transform="translate(54 48)">
+      <text x="0" y="0" fill="#b63c32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">HELLO, I&apos;M</text>
+      <text x="0" y="68" fill="#181817" font-family="Georgia, Times New Roman, serif" font-size="64" font-weight="600" letter-spacing="-2">Hazel Hidayah.</text>
+
+      <g transform="translate(2 103)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2">
+        <text fill="#3f3b36">CODER
+          <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.34;0.61;0.67;0.94;1" dur="6s" repeatCount="indefinite" calcMode="discrete"/>
+        </text>
+        <text fill="#3f3b36" opacity="0">DESIGNER
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.28;0.34;0.61;0.67;0.94;1" dur="6s" repeatCount="indefinite" calcMode="discrete"/>
+        </text>
+        <text fill="#3f3b36" opacity="0">STORYTELLER
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.28;0.34;0.61;0.67;0.94;1" dur="6s" repeatCount="indefinite" calcMode="discrete"/>
+        </text>
+        <rect x="58" y="-13" width="2" height="17" fill="#b63c32">
+          <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="58;58;92;92;116;116" keyTimes="0;0.28;0.34;0.61;0.67;1" dur="6s" repeatCount="indefinite" calcMode="discrete"/>
+        </rect>
+      </g>
+
+      <text x="0" y="148" fill="#68645e" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="15">Building thoughtful digital experiences with code, design, and curiosity.</text>
+      <rect x="0" y="166" width="350" height="2" rx="1" fill="#d8d2c7"/>
+      <rect x="0" y="166" width="0" height="2" rx="1" fill="url(#accent)">
+        <animate attributeName="width" values="0;350;350;0" keyTimes="0;0.45;0.85;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(786 118)">
+      <circle r="8" fill="#b63c32"/>
+      <circle cx="0" cy="-54" r="4" fill="#dc7a46">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
