@@ -1,5 +1,8 @@
 <footer class="site-footer">
   <div class="footer-inner">
+    <a href="{{ '/' | relative_url }}" class="footer-seal" aria-label="Hazel Hidayah — home">
+      {% include seal.html class="seal--footer" %}
+    </a>
     <p>&copy; {{ site.time | date: '%Y' }} Hazel Hidayah</p>
     <p>Designed with curiosity. Built with care.</p>
     <a href="#top" class="footer-top">Back to top ↑</a>

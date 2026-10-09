@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="seal-title">
+  <title id="seal-title">Hazel Hidayah seal</title>
+  <path fill="#C8281E" d="M5 7 57 4l3 53-52 3L4 36Z"/>
+  <path fill="none" stroke="#F1EEE8" stroke-width="2" opacity=".75" d="M10 11 53 9l2 43-42 3-4-21Z"/>
+  <text x="32" y="40" fill="#F1EEE8" font-family="Georgia,serif" font-size="25" font-weight="700" text-anchor="middle">HH</text>
+</svg>
