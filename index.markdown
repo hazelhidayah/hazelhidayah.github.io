@@ -21,7 +21,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
     </div>
 
     <div class="portrait-wrap reveal reveal--delay" aria-label="Portrait of Hazel Hidayah">
-      <span class="portrait-note">based in Singapore</span>
+      <span class="portrait-note">Malay-Chinese, made in Singapore</span>
       <div class="portrait-frame">
         <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="Hazel Hidayah" />
       </div>
