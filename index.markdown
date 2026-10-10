@@ -68,37 +68,49 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
     </div>
 
     <div class="project-list">
-      <a class="project-row" href="https://github.com/hazelhidayah/Context-Management-Lite" target="_blank" rel="noopener noreferrer">
+      <a class="project-row" href="{{ '/work/context-management-lite/' | relative_url }}">
         <span class="project-index">01</span>
         <span class="project-info">
           <span class="project-kicker">AI systems · Summer research</span>
           <strong>Context Management Lite</strong>
           <span>Human-controlled memory for reliable, branching AI conversations.</span>
+          <span class="project-details"><span>Role: Researcher &amp; developer</span><span>Tools: React, TypeScript, LLMs</span></span>
         </span>
         <span class="project-year">2026</span>
-        <span class="project-arrow" aria-hidden="true">↗</span>
+        <span class="project-arrow" aria-hidden="true">→</span>
+        <span class="project-preview" aria-hidden="true">
+          <img src="{{ '/assets/img/context-management-poster.png' | relative_url }}" alt="" loading="lazy" />
+        </span>
       </a>
 
-      <a class="project-row" href="https://github.com/SQ77/factSnap" target="_blank" rel="noopener noreferrer">
+      <a class="project-row" href="{{ '/work/factsnap/' | relative_url }}">
         <span class="project-index">02</span>
         <span class="project-info">
           <span class="project-kicker">Hackathon finalist · Mobile AI/OCR</span>
           <strong>FactSnap</strong>
           <span>A social fact-checking app built with team “plebs” to make digital literacy engaging.</span>
+          <span class="project-details"><span>Role: Hackathon team member</span><span>Tools: React Native, Expo, Supabase</span></span>
         </span>
         <span class="project-year">2025</span>
-        <span class="project-arrow" aria-hidden="true">↗</span>
+        <span class="project-arrow" aria-hidden="true">→</span>
+        <span class="project-preview project-preview--icon" aria-hidden="true">
+          <img src="{{ '/assets/img/factsnap-icon.png' | relative_url }}" alt="" loading="lazy" />
+        </span>
       </a>
 
-      <a class="project-row" href="https://xd.adobe.com/view/0da1ccb5-7e4d-4a56-9f38-09b1e9cfe299-58f2/" target="_blank" rel="noopener noreferrer">
+      <a class="project-row" href="{{ '/work/scdf-redesign/' | relative_url }}">
         <span class="project-index">03</span>
         <span class="project-info">
           <span class="project-kicker">UI/UX · Web platform</span>
           <strong>SCDF Website Redesign</strong>
           <span>Research-led redesign for a clearer, calmer public-service experience.</span>
+          <span class="project-details"><span>Role: Creative Director</span><span>Tools: Adobe XD, user research</span></span>
         </span>
         <span class="project-year">2025</span>
-        <span class="project-arrow" aria-hidden="true">↗</span>
+        <span class="project-arrow" aria-hidden="true">→</span>
+        <span class="project-preview" aria-hidden="true">
+          <img src="{{ '/assets/img/scdf-redesign.png' | relative_url }}" alt="" loading="lazy" />
+        </span>
       </a>
     </div>
   </div>
