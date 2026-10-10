@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<article class="case-study">
+  <header class="case-study__hero">
+    <div class="section-inner case-study__hero-grid">
+      <div>
+        <p class="section-number">Case study <span class="section-number__han" lang="zh">· 作品</span></p>
+        <h1>{{ page.title }}</h1>
+        <p class="case-study__lede">{{ page.summary }}</p>
+      </div>
+      <dl class="case-study__meta">
+        <div><dt>Role</dt><dd>{{ page.role }}</dd></div>
+        <div><dt>Tools</dt><dd>{{ page.tools | join: ', ' }}</dd></div>
+        <div><dt>Year</dt><dd>{{ page.year }}</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <div class="section-inner case-study__content">
+    <figure class="case-study__cover">
+      <img src="{{ page.cover_image | relative_url }}" alt="{{ page.cover_alt }}" />
+    </figure>
+
+    <div class="case-study__narrative">
+      <section>
+        <p class="case-study__step">01 / Problem</p>
+        <h2>What needed attention</h2>
+        <p>{{ page.problem }}</p>
+      </section>
+      <section>
+        <p class="case-study__step">02 / Process</p>
+        <h2>How I approached it</h2>
+        <p>{{ page.process }}</p>
+      </section>
+      <section>
+        <p class="case-study__step">03 / Result</p>
+        <h2>What came out of it</h2>
+        <p>{{ page.result }}</p>
+      </section>
+    </div>
+
+    <section class="case-study__comparison" aria-labelledby="comparison-title">
+      <div class="case-study__section-heading">
+        <p class="case-study__step">04 / Design to build</p>
+        <h2 id="comparison-title">From frame to outcome</h2>
+      </div>
+      <div class="case-study__visual-grid">
+        <figure class="case-study__visual">
+          {% if page.design_image %}
+            <img src="{{ page.design_image | relative_url }}" alt="{{ page.design_alt }}" loading="lazy" />
+          {% else %}
+            <div class="case-study__todo">TODO: Add design or Figma imagery.</div>
+          {% endif %}
+          <figcaption>Design / prototype</figcaption>
+        </figure>
+        <figure class="case-study__visual">
+          {% if page.built_image %}
+            <img src="{{ page.built_image | relative_url }}" alt="{{ page.built_alt }}" loading="lazy" />
+          {% else %}
+            <div class="case-study__todo">TODO: Add built outcome imagery.</div>
+          {% endif %}
+          <figcaption>Built outcome</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <nav class="case-study__actions" aria-label="Project links">
+      {% if page.demo_url %}
+        <a class="btn btn--dark" href="{{ page.demo_url }}" target="_blank" rel="noopener noreferrer">View demo <span aria-hidden="true">↗</span></a>
+      {% endif %}
+      {% if page.github_url %}
+        <a class="btn-ghost" href="{{ page.github_url }}" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
+      {% endif %}
+      <a class="text-link" href="{{ '/works/' | relative_url }}">All work <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</article>
