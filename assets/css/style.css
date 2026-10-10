@@ -1375,6 +1375,13 @@ body::before {
   margin-bottom: 2rem;
 }
 
+.case-study__section-note {
+  max-width: 48rem;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
 .case-study__visual-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
