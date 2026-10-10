@@ -834,7 +834,7 @@ p {
   --line: rgba(13, 14, 15, 0.2);
   --serif: "Playfair Display", Georgia, serif;
   --sans: "Manrope", "Helvetica Neue", Arial, sans-serif;
-  --mono: "DM Mono", monospace;
+  --mono: var(--sans);
   --content-max: 1180px;
 }
 
@@ -1038,13 +1038,13 @@ body::before {
   margin: 0;
   color: var(--charcoal);
   font-family: var(--serif);
-  font-weight: 600;
-  letter-spacing: -0.055em;
-  line-height: 0.94;
+  font-weight: 500;
+  letter-spacing: -0.038em;
+  line-height: 0.98;
 }
 
 .home-hero h1 {
-  font-size: clamp(4rem, 8.2vw, 7.3rem);
+  font-size: clamp(3.35rem, 6.6vw, 5.8rem);
 }
 
 .home-hero h1 em,
@@ -1052,8 +1052,26 @@ body::before {
 .section-heading h2 em,
 .toolbox h2 em,
 .contact-strip h2 em {
+  position: relative;
+  display: inline-block;
   color: var(--red);
   font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.025em;
+}
+
+.home-hero h1 em::after,
+.about-preview h2 em::after,
+.section-heading h2 em::after,
+.toolbox h2 em::after,
+.contact-strip h2 em::after {
+  position: absolute;
+  right: 0.08em;
+  bottom: -0.08em;
+  width: 0.7em;
+  height: 1px;
+  background: currentColor;
+  content: "";
 }
 
 .hero-role {
@@ -1272,10 +1290,10 @@ body::before {
   max-width: 11ch;
   margin: 1rem 0 1.5rem;
   font-family: var(--serif);
-  font-size: clamp(3.7rem, 8vw, 7.5rem);
-  font-weight: 600;
-  letter-spacing: -0.055em;
-  line-height: 0.92;
+  font-size: clamp(3rem, 6vw, 5.75rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 0.97;
 }
 
 .case-study__lede {
@@ -1553,7 +1571,7 @@ body::before {
 .about-preview h2,
 .contact-strip h2 {
   color: var(--paper);
-  font-size: clamp(3rem, 5.5vw, 5rem);
+  font-size: clamp(2.5rem, 4.5vw, 4.1rem);
 }
 
 .about-preview__body {
@@ -1585,7 +1603,7 @@ body::before {
 
 .section-heading h2,
 .toolbox h2 {
-  font-size: clamp(3rem, 5.5vw, 5rem);
+  font-size: clamp(2.5rem, 4.5vw, 4.1rem);
 }
 
 .project-list {
@@ -1916,8 +1934,9 @@ body::before {
 .hero--page .hero-title,
 .page-heading h1 {
   font-family: var(--serif);
-  font-size: clamp(3rem, 7vw, 5.5rem);
-  letter-spacing: -0.045em;
+  font-size: clamp(2.75rem, 5.5vw, 4.6rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
 }
 
 .hero--page .hero-copy {
@@ -2217,7 +2236,7 @@ body::before {
   max-width: 9ch;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(1.8rem, 4vw, 3.6rem);
+  font-size: clamp(1.7rem, 3.4vw, 3rem);
   line-height: 0.95;
   text-align: center;
 }
@@ -2267,7 +2286,8 @@ body::before {
 .experience-group__header h2 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2rem, 4vw, 3.6rem);
+  font-size: clamp(1.9rem, 3.4vw, 3rem);
+  font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 1;
 }
@@ -2321,7 +2341,8 @@ body::before {
   margin: 0.75rem 0 1rem;
   padding-right: 1.75rem;
   font-family: var(--serif);
-  font-size: clamp(1.5rem, 2.8vw, 2.35rem);
+  font-size: clamp(1.4rem, 2.3vw, 2rem);
+  font-weight: 500;
   letter-spacing: -0.025em;
   line-height: 1.12;
 }
@@ -2663,7 +2684,7 @@ body::before {
   }
 
   .home-hero h1 {
-    font-size: clamp(3.5rem, 18vw, 5rem);
+    font-size: clamp(3rem, 15vw, 4.2rem);
   }
 
   .hero-actions,
