@@ -112,24 +112,6 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
         </div>
       </article>
 
-      <article class="work-card">
-        <div class="work-thumb tech-1" role="img" aria-label="Insidr project preview">
-          <span>Insidr</span>
-        </div>
-        <div class="work-meta">UI/UX · Web Application</div>
-        <h3 class="work-title">Insidr · AI Networking Platform</h3>
-        <p class="work-desc">
-          Designed and prototyped Insidr, an AI‑driven networking tool for students and fresh
-          grads, in a 4‑week pair project. Explored AI‑powered job search and discussion spaces,
-          ran user tests and pitched the concept—earning a top‑two finish and a sponsored mentorship
-          with Meraki Academy.
-        </p>
-        <div class="work-links">
-          <a href="https://tinyurl.com/28bokqgj" class="btn-ghost" target="_blank" rel="noopener noreferrer"
-            >View prototype</a
-          >
-        </div>
-      </article>
     </div>
   </div>
 </section>
