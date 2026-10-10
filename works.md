@@ -113,19 +113,6 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
       </article>
 
       <article class="work-card">
-        <div class="work-thumb tech-2" role="img" aria-label="MyResponder project imagery to be added">
-          <span>MyResponder</span>
-        </div>
-        <div class="work-meta">UI/UX · Application</div>
-        <h3 class="work-title">MyResponder Redesign</h3>
-        <p class="work-desc">
-          Redesigned SCDF’s MyResponder app for both mobile and desktop in a three‑person team.
-          Created personas and user journeys for multiple stakeholder groups, then validated flows
-          with user testing to make time‑critical actions clearer and faster.
-        </p>
-      </article>
-
-      <article class="work-card">
         <div class="work-thumb tech-1" role="img" aria-label="Insidr project preview">
           <span>Insidr</span>
         </div>
@@ -201,16 +188,37 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
         </div>
       </article>
 
-      <article class="work-card">
-        <div class="work-thumb creative-1" role="img" aria-label="Man VS Miracle card-game imagery to be added">
-          <span>Man VS Miracle</span>
+      <article class="work-card work-card--featured work-card--mvm">
+        <div class="work-card__body">
+          <div class="work-meta">Illustration · Card Game · Print Design</div>
+          <h3 class="work-title">Man VS Miracle · Card Game</h3>
+          <p class="work-desc">
+            Illustrated and designed a full set of game cards—characters, backgrounds and actions—for
+            a client brief, turning open‑ended prompts into a cohesive, story‑driven visual system.
+          </p>
+          <p class="mvm-gallery__cue" id="mvm-gallery-cue">Scroll to explore the deck <span aria-hidden="true">→</span></p>
         </div>
-        <div class="work-meta">Print Design</div>
-        <h3 class="work-title">Man VS Miracle · Card Game</h3>
-        <p class="work-desc">
-          Illustrated and designed a full set of game cards—characters, backgrounds and actions—for
-          a client brief, turning open‑ended prompts into a cohesive, story‑driven visual system.
-        </p>
+        <div class="mvm-gallery" tabindex="0" role="region" aria-labelledby="mvm-gallery-cue">
+          <img src="{{ '/assets/img/mvm/polearm.jpg' | relative_url }}" alt="Man vs Miracle Polearm skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/nimble.jpg' | relative_url }}" alt="Man vs Miracle Nimble skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/acrobatic.jpg' | relative_url }}" alt="Man vs Miracle Acrobatic skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/flexible.jpg' | relative_url }}" alt="Man vs Miracle Flexible skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/undying.jpg' | relative_url }}" alt="Man vs Miracle Undying skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/hysterical.jpg' | relative_url }}" alt="Man vs Miracle Hysterical skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/armour.jpg' | relative_url }}" alt="Man vs Miracle Armour skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/deblunt.jpg' | relative_url }}" alt="Man vs Miracle Deblunt skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/extra-sword.jpg' | relative_url }}" alt="Man vs Miracle Extra Sword skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/volley.jpg' | relative_url }}" alt="Man vs Miracle Volley skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/insider.jpg' | relative_url }}" alt="Man vs Miracle Insider skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/false-funeral.jpg' | relative_url }}" alt="Man vs Miracle False Funeral skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/caltrops.jpg' | relative_url }}" alt="Man vs Miracle Caltrops skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/shove.jpg' | relative_url }}" alt="Man vs Miracle Shove skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/veteran.jpg' | relative_url }}" alt="Man vs Miracle Veteran skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/higher-ground.jpg' | relative_url }}" alt="Man vs Miracle Higher Ground skill card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/second-coming.jpg' | relative_url }}" alt="Man vs Miracle Second Coming miracle card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/earthquake.jpg' | relative_url }}" alt="Man vs Miracle Earthquake miracle card" loading="lazy" />
+          <img src="{{ '/assets/img/mvm/food-poisoning.jpg' | relative_url }}" alt="Man vs Miracle Food Poisoning miracle card" loading="lazy" />
+        </div>
       </article>
 
       <article class="work-card">

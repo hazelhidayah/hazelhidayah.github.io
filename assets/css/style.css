@@ -2050,6 +2050,51 @@ body::before {
   align-items: start;
 }
 
+.work-card--mvm {
+  display: block;
+}
+
+.work-card--mvm .work-card__body {
+  max-width: 48rem;
+  margin-bottom: 2rem;
+}
+
+.mvm-gallery__cue {
+  margin: 1.25rem 0 0;
+  color: var(--red);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.mvm-gallery {
+  display: grid;
+  grid-auto-columns: clamp(11rem, 18vw, 15rem);
+  grid-auto-flow: column;
+  gap: 0.85rem;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0.2rem 0 1rem;
+  scrollbar-color: var(--red) var(--paper-deep);
+  scrollbar-width: thin;
+  scroll-snap-type: x mandatory;
+}
+
+.mvm-gallery:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 0.45rem;
+}
+
+.mvm-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  background: var(--ink);
+  scroll-snap-align: start;
+}
+
 .work-visual--icon img {
   width: min(68%, 15rem);
   height: auto;
