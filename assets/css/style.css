@@ -1642,6 +1642,41 @@ body::before {
   transform: translateY(-50%) rotate(-1deg);
 }
 
+@media (min-width: 1261px) {
+  .project-row {
+    grid-template-columns: 4rem minmax(0, 1fr) minmax(13rem, 17rem) auto 2rem;
+  }
+
+  .project-preview {
+    position: relative;
+    right: auto;
+    top: auto;
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    transform: rotate(1deg);
+  }
+
+  .project-year {
+    grid-column: 4;
+  }
+
+  .project-arrow {
+    grid-column: 5;
+  }
+
+  .project-row:hover .project-preview,
+  .project-row:focus-visible .project-preview {
+    transform: rotate(-1deg);
+  }
+}
+
+@media (max-width: 1260px) {
+  .project-preview {
+    display: none;
+  }
+}
+
 .project-arrow {
   color: var(--red);
   font-size: 1.3rem;
