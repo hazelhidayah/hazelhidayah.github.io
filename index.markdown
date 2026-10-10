@@ -132,49 +132,57 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
     <div class="skill-directory" aria-label="Skills and tools">
       <article class="skill-group">
         <div class="skill-group__marker" aria-hidden="true">A</div>
-        <h3>Design tools</h3>
+        <p class="skill-group__stage">Research</p>
+        <h3>Understand the problem</h3>
+        <p class="skill-group__example">Used to surface and organise user pain points in the SCDF redesign.</p>
         <ul class="skill-tags">
-          <li><i class="fa-brands fa-figma" aria-hidden="true"></i> Figma</li>
-          <li><span class="skill-abbr" aria-hidden="true">Ps</span> Photoshop</li>
-          <li><span class="skill-abbr" aria-hidden="true">Ai</span> Illustrator</li>
-          <li><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i> Prototyping</li>
+          <li>User research</li>
+          <li>Usability testing</li>
+          <li>Information architecture</li>
         </ul>
       </article>
 
       <article class="skill-group">
         <div class="skill-group__marker" aria-hidden="true">B</div>
-        <h3>Languages</h3>
+        <p class="skill-group__stage">Design</p>
+        <h3>Shape the experience</h3>
+        <p class="skill-group__example">Used to turn research into flows, interfaces and visual systems.</p>
         <ul class="skill-tags">
-          <li><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript</li>
-          <li><i class="fa-brands fa-python" aria-hidden="true"></i> Python</li>
-          <li><i class="fa-brands fa-java" aria-hidden="true"></i> Java</li>
-          <li><span class="skill-abbr" aria-hidden="true">C</span> C</li>
-          <li><span class="skill-abbr" aria-hidden="true">SQL</span> SQL</li>
-          <li><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML</li>
-          <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS</li>
+          <li>Figma</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+          <li>Visual storytelling</li>
         </ul>
       </article>
 
       <article class="skill-group">
         <div class="skill-group__marker" aria-hidden="true">C</div>
-        <h3>Development tools</h3>
+        <p class="skill-group__stage">Build</p>
+        <h3>Make it work</h3>
+        <p class="skill-group__example">Used to prototype interfaces, AI-assisted tools and supporting systems.</p>
         <ul class="skill-tags">
-          <li><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</li>
-          <li><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</li>
-          <li><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker</li>
-          <li><i class="fa-solid fa-terminal" aria-hidden="true"></i> CLI / Unix</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C</li>
+          <li>SQL</li>
+          <li>HTML</li>
+          <li>CSS</li>
         </ul>
       </article>
 
       <article class="skill-group">
         <div class="skill-group__marker" aria-hidden="true">D</div>
-        <h3>UX &amp; product</h3>
+        <p class="skill-group__stage">Ship</p>
+        <h3>Prepare it for people</h3>
+        <p class="skill-group__example">Used to version, package and check work before it reaches people.</p>
         <ul class="skill-tags">
-          <li>User research</li>
-          <li>Usability testing</li>
-          <li>Information architecture</li>
-          <li>Wireframing</li>
-          <li>Visual storytelling</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Docker</li>
+          <li>CLI / Unix</li>
           <li>Accessibility</li>
         </ul>
       </article>

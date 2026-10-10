@@ -1661,11 +1661,28 @@ body::before {
 }
 
 .skill-group h3 {
-  margin: 0 0 2rem;
+  margin: 0.45rem 0 0.85rem;
   padding-right: 3rem;
   font-family: var(--serif);
   font-size: 1.65rem;
   letter-spacing: -0.025em;
+}
+
+.skill-group__stage {
+  margin: 0;
+  color: #a91f17;
+  font-family: var(--mono);
+  font-size: 0.67rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.skill-group__example {
+  max-width: 31rem;
+  margin: 0 0 1.75rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.6;
 }
 
 .skill-tags {
@@ -1688,16 +1705,6 @@ body::before {
   font-family: var(--mono);
   font-size: 0.68rem;
   letter-spacing: 0.025em;
-}
-
-.skill-tags i {
-  color: var(--red);
-  font-size: 0.9rem;
-}
-
-.skill-abbr {
-  color: var(--red);
-  font-weight: 500;
 }
 
 .contact-strip {
