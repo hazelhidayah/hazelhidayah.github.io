@@ -1945,13 +1945,62 @@ body::before {
   max-width: 44rem;
 }
 
-.page-content--works {
-  width: 100%;
+.section-inner.page-content--works {
+  width: calc(100% + 3rem);
   max-width: none;
+  margin-inline: -1.5rem;
+  margin-bottom: -5rem;
 }
 
 .page-content--works > .section {
   padding-inline: 0;
+}
+
+.works-chapter--tech {
+  padding-bottom: clamp(6rem, 12vw, 11rem);
+  background: var(--paper);
+}
+
+.works-chapter--creative {
+  position: relative;
+  padding-top: clamp(5rem, 9vw, 8rem);
+  border-top: clamp(0.35rem, 0.7vw, 0.6rem) solid var(--red);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.works-chapter--creative .section-title,
+.works-chapter--creative .work-title {
+  color: var(--paper);
+}
+
+.works-chapter--creative .section-label,
+.works-chapter--creative .work-meta {
+  color: var(--red-on-dark);
+}
+
+.works-chapter--creative .work-card {
+  border-top-color: rgba(240, 238, 233, 0.24);
+}
+
+.works-chapter--creative .work-desc {
+  color: var(--muted-on-dark);
+}
+
+.works-chapter--creative .work-stack li {
+  border-color: rgba(240, 238, 233, 0.32);
+  color: var(--muted-on-dark);
+}
+
+.works-chapter--creative .btn-ghost {
+  border-color: rgba(240, 238, 233, 0.72);
+  color: var(--paper);
+}
+
+.works-chapter--creative .btn-ghost:hover,
+.works-chapter--creative .btn-ghost:focus-visible {
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .work-grid {
@@ -2093,6 +2142,29 @@ body::before {
   border: 1px solid var(--line);
   background: var(--ink);
   scroll-snap-align: start;
+}
+
+.creative-portfolio-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: clamp(4rem, 8vw, 7rem);
+  padding: clamp(1.5rem, 3vw, 2.5rem) 0;
+  border-top: 1px solid rgba(240, 238, 233, 0.38);
+  border-bottom: 1px solid rgba(240, 238, 233, 0.38);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 4vw, 3.5rem);
+  line-height: 1;
+  text-decoration: none;
+  transition: padding 180ms ease, color 180ms ease;
+}
+
+.creative-portfolio-cta:hover,
+.creative-portfolio-cta:focus-visible {
+  padding-inline: 1rem;
+  color: var(--red-on-dark);
 }
 
 .work-visual--icon img {

@@ -6,10 +6,10 @@ hero_kicker: Portfolio
 hero_subtitle: A mix of tech experiments and visual work. Some are polished, some are in progress.
 ---
 
-<section class="section" id="tech-stuff">
+<section class="section works-chapter works-chapter--tech" id="tech-stuff">
   <div class="section-inner">
-    <div class="section-label">Tech Stuff</div>
-    <h2 class="section-title">Interfaces &amp; little tools</h2>
+    <div class="section-label">01 / Tech Work <span lang="zh">· 技术</span></div>
+    <h2 class="section-title">Systems, interfaces &amp; experiments</h2>
 
     <div class="work-grid">
       <article class="work-card work-card--featured">
@@ -116,19 +116,13 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
   </div>
 </section>
 
-<section class="section" id="creative-work">
+<section class="section works-chapter works-chapter--creative" id="creative-work">
   <div class="section-inner">
     <div class="creative-section-header">
       <div>
-        <div class="section-label">Creative Work</div>
+        <div class="section-label">02 / Creative Work <span lang="zh">· 创意</span></div>
         <h2 class="section-title">Posters, visuals &amp; experiments</h2>
       </div>
-      <a
-        href="https://www.canva.com/design/DAGLNfRuDuw/SxKcxfK1m9HqCtM2Q4lvSA/view?utm_content=DAGLNfRuDuw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=uniquelinks&amp;utlId=habbf1fb70b#1"
-        class="btn btn--dark"
-        target="_blank"
-        rel="noopener noreferrer"
-      >View full creative portfolio <span aria-hidden="true">↗</span></a>
     </div>
 
     <div class="work-grid">
@@ -203,27 +197,16 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
         </div>
       </article>
 
-      <article class="work-card">
-        <div class="work-thumb creative-1" role="img" aria-label="Stories, Campaigns and Motion project preview">
-          <span>Stories / Motion</span>
-        </div>
-        <div class="work-meta">Campaigns &amp; Journalism</div>
-        <h3 class="work-title">Stories, Campaigns &amp; Motion</h3>
-        <p class="work-desc">
-          Selected journalism pieces, video stories and social campaigns—from “I AM the Movement”
-          to work for BMDP and Singapore Night Festival—where I combined research, writing and
-          visual work.
-        </p>
-        <div class="work-links">
-          <a
-            href="https://www.canva.com/design/DAGLNfRuDuw/SxKcxfK1m9HqCtM2Q4lvSA/view?utm_content=DAGLNfRuDuw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=uniquelinks&amp;utlId=habbf1fb70b#1"
-            class="btn-ghost"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View full creative portfolio</a
-          >
-        </div>
-      </article>
     </div>
+
+    <a
+      href="https://www.canva.com/design/DAGLNfRuDuw/SxKcxfK1m9HqCtM2Q4lvSA/view?utm_content=DAGLNfRuDuw&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=uniquelinks&amp;utlId=habbf1fb70b#1"
+      class="creative-portfolio-cta"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span>View full creative portfolio</span>
+      <span aria-hidden="true">↗</span>
+    </a>
   </div>
 </section>
