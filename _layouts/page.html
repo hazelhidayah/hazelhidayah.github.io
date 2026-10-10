@@ -5,8 +5,7 @@ layout: default
 {% include page_hero.html %}
 
 <section class="section">
-  <div class="section-inner">
+  <div class="section-inner page-content page-content--{{ page.title | slugify }}">
     {{ content }}
   </div>
 </section>
-

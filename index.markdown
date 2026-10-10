@@ -5,7 +5,6 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
 ---
 
 <section class="home-hero" id="top">
-  <div class="ink-cloud ink-cloud--top" aria-hidden="true"></div>
   <div class="section-inner home-hero__grid">
     <div class="home-hero__copy reveal">
       <p class="eyebrow">Hello, I’m</p>

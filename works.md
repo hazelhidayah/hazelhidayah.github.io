@@ -113,7 +113,9 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
       </article>
 
       <article class="work-card">
-        <div class="work-thumb tech-2"></div>
+        <div class="work-thumb tech-2" role="img" aria-label="MyResponder project imagery to be added">
+          <span>MyResponder</span>
+        </div>
         <div class="work-meta">UI/UX · Application</div>
         <h3 class="work-title">MyResponder Redesign</h3>
         <p class="work-desc">
@@ -121,13 +123,12 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
           Created personas and user journeys for multiple stakeholder groups, then validated flows
           with user testing to make time‑critical actions clearer and faster.
         </p>
-        <div class="work-links">
-          <a href="#" class="btn-ghost">Desktop &amp; mobile views</a>
-        </div>
       </article>
 
       <article class="work-card">
-        <div class="work-thumb tech-1"></div>
+        <div class="work-thumb tech-1" role="img" aria-label="Insidr project preview">
+          <span>Insidr</span>
+        </div>
         <div class="work-meta">UI/UX · Web Application</div>
         <h3 class="work-title">Insidr · AI Networking Platform</h3>
         <p class="work-desc">
@@ -201,20 +202,21 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
       </article>
 
       <article class="work-card">
-        <div class="work-thumb creative-1"></div>
+        <div class="work-thumb creative-1" role="img" aria-label="Man VS Miracle card-game imagery to be added">
+          <span>Man VS Miracle</span>
+        </div>
         <div class="work-meta">Print Design</div>
         <h3 class="work-title">Man VS Miracle · Card Game</h3>
         <p class="work-desc">
           Illustrated and designed a full set of game cards—characters, backgrounds and actions—for
           a client brief, turning open‑ended prompts into a cohesive, story‑driven visual system.
         </p>
-        <div class="work-links">
-          <a href="#" class="btn-ghost">See cards</a>
-        </div>
       </article>
 
       <article class="work-card">
-        <div class="work-thumb creative-1"></div>
+        <div class="work-thumb creative-1" role="img" aria-label="Stories, Campaigns and Motion project preview">
+          <span>Stories / Motion</span>
+        </div>
         <div class="work-meta">Campaigns &amp; Journalism</div>
         <h3 class="work-title">Stories, Campaigns &amp; Motion</h3>
         <p class="work-desc">
