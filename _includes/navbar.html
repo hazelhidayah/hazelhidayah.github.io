@@ -21,7 +21,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span aria-hidden="true">GH</span>
+        {% include social-icon.html platform="github" %}
       </a>
       {% endif %}
       {% if site.linkedin_url %}
@@ -32,7 +32,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <span aria-hidden="true">in</span>
+        {% include social-icon.html platform="linkedin" %}
       </a>
       {% endif %}
       <a href="{{ '/#contact' | relative_url }}" class="nav-cta" data-nav-section="contact">Let’s talk</a>

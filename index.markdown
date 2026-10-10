@@ -195,8 +195,8 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
     <h2>Have an idea?<br /><em>Let’s make it real.</em></h2>
     <div class="contact-links" aria-label="Contact and profile links">
       <a href="mailto:{{ site.email }}" class="contact-link">Email <span aria-hidden="true">↗</span></a>
-      <a href="https://github.com/{{ site.github_username }}" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-      <a href="{{ site.linkedin_url }}" class="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/{{ site.github_username }}" class="contact-link contact-link--icon" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer">{% include social-icon.html platform="github" %}</a>
+      <a href="{{ site.linkedin_url }}" class="contact-link contact-link--icon" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">{% include social-icon.html platform="linkedin" %}</a>
       <a href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}" class="contact-link" target="_blank" rel="noopener noreferrer">Résumé <span aria-hidden="true">↗</span></a>
     </div>
   </div>
