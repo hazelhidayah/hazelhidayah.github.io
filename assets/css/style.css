@@ -1432,6 +1432,40 @@ body::before {
   text-transform: uppercase;
 }
 
+.case-study__interface {
+  margin-top: clamp(5rem, 10vw, 9rem);
+  padding-top: clamp(3rem, 6vw, 5rem);
+  border-top: 1px solid var(--ink);
+}
+
+.case-study__interface-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 1.75rem);
+}
+
+.case-study__interface-figure {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.case-study__interface-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  background: var(--paper-deep);
+}
+
+.case-study__interface-figure figcaption {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.67rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .case-study__actions {
   display: flex;
   flex-wrap: wrap;
@@ -1444,7 +1478,8 @@ body::before {
 
 @media (max-width: 760px) {
   .case-study__hero-grid,
-  .case-study__visual-grid {
+  .case-study__visual-grid,
+  .case-study__interface-grid {
     grid-template-columns: 1fr;
   }
 

@@ -17,6 +17,15 @@ cover_image: /assets/img/context-management-poster.png
 cover_alt: Research poster explaining Context Management Lite and its approach to reducing context rot
 design_image: /assets/img/context-management-poster.png
 design_alt: Context Management Lite research poster with diagrams of the memory lifecycle and multi-agent runtime
+built_image: /assets/img/context-management-workspace.png
+built_alt: Context Management Lite workspace showing a branching conversation graph beside the selected node's prompt and response
+interface_images:
+  - src: /assets/img/context-management-global-context.png
+    alt: Versioned Global Context Panel with project context, role, operating principles and response format controls
+    caption: Versioned Global Context Panel
+  - src: /assets/img/context-management-workflow.png
+    alt: Workspace guide explaining shared rules, private branches, merge review and the five specialised AI roles
+    caption: Human-controlled memory and merge workflow
 github_url: https://github.com/hazelhidayah/Context-Management-Lite
 problem: In long, branching AI conversations, earlier instructions, evidence and decisions can be lost, distorted or incorrectly applied. Unrelated branches can contaminate one another, while durable project rules may be silently overwritten.
 process: I took over an initial DAG-based conversational prototype and designed an explicit Store–Retrieve–Update memory lifecycle. I implemented branch-private memory isolation, a versioned global context registry, five specialised task roles and a conflict-aware merge workflow with human review.

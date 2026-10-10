@@ -72,6 +72,23 @@ layout: default
       </div>
     </section>
 
+    {% if page.interface_images %}
+      <section class="case-study__interface" aria-labelledby="interface-title">
+        <div class="case-study__section-heading">
+          <p class="case-study__step">05 / Interface details</p>
+          <h2 id="interface-title">The controls behind the conversation</h2>
+        </div>
+        <div class="case-study__interface-grid">
+          {% for image in page.interface_images %}
+            <figure class="case-study__interface-figure">
+              <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy" />
+              <figcaption>{{ image.caption }}</figcaption>
+            </figure>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
     <nav class="case-study__actions" aria-label="Project links">
       {% if page.demo_url %}
         <a class="btn btn--dark" href="{{ page.demo_url }}" target="_blank" rel="noopener noreferrer">View demo <span aria-hidden="true">↗</span></a>
