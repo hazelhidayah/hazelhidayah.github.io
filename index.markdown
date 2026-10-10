@@ -93,8 +93,8 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         </span>
         <span class="project-year">2025</span>
         <span class="project-arrow" aria-hidden="true">→</span>
-        <span class="project-preview project-preview--icon" aria-hidden="true">
-          <img src="{{ '/assets/img/factsnap-icon.png' | relative_url }}" alt="" loading="lazy" />
+        <span class="project-preview" aria-hidden="true">
+          <img src="{{ '/assets/img/factsnap-community.png' | relative_url }}" alt="" loading="lazy" />
         </span>
       </a>
 

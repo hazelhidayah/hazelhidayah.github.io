@@ -56,7 +56,13 @@ layout: default
           <figcaption>Design / prototype</figcaption>
         </figure>
         <figure class="case-study__visual">
-          {% if page.built_image %}
+          {% if page.built_images %}
+            <div class="case-study__phone-gallery">
+              {% for image in page.built_images %}
+                <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy" />
+              {% endfor %}
+            </div>
+          {% elsif page.built_image %}
             <img src="{{ page.built_image | relative_url }}" alt="{{ page.built_alt }}" loading="lazy" />
           {% else %}
             <div class="case-study__todo">TODO: Add built outcome imagery.</div>

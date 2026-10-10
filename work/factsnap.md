@@ -12,10 +12,17 @@ tools:
   - OpenRouter
   - Google Cloud Vision
 year: 2025
-cover_image: /assets/img/factsnap-icon.png
-cover_alt: FactSnap mobile app icon
+cover_image: /assets/img/factsnap-community.png
+cover_alt: FactSnap mobile community screen with scam-awareness posts and navigation
 design_image: /assets/img/factsnap-icon.png
 design_alt: FactSnap app icon used as the available project visual
+built_images:
+  - src: /assets/img/factsnap-community.png
+    alt: FactSnap Community screen showing searchable cyber-awareness posts
+  - src: /assets/img/factsnap-post.png
+    alt: FactSnap post screen showing a scam discussion and community replies
+  - src: /assets/img/factsnap-reply-composer.png
+    alt: FactSnap reply composer displayed over a community post
 github_url: https://github.com/SQ77/factSnap
 problem: Questionable content spreads quickly, while fact-checking and cyber-awareness resources can feel disconnected from the moment when a user needs them.
 process: FactSnap lets users upload or photograph questionable content for AI-assisted analysis using reliable fact-checking sources. Quizzes, real-life scenarios and a leaderboard reinforce critical thinking and digital literacy through practice.

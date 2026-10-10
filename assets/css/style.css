@@ -1390,6 +1390,27 @@ body::before {
   object-fit: contain;
 }
 
+.case-study__phone-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: start;
+  gap: 0.75rem;
+  min-height: 100%;
+  padding: clamp(0.75rem, 2vw, 1.5rem);
+  border: 1px solid var(--line);
+  background: var(--paper-deep);
+}
+
+.case-study__phone-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  object-fit: initial;
+}
+
 .case-study__todo {
   display: grid;
   place-items: center;
