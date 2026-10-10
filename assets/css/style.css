@@ -1965,42 +1965,42 @@ body::before {
   position: relative;
   padding-top: clamp(5rem, 9vw, 8rem);
   border-top: clamp(0.35rem, 0.7vw, 0.6rem) solid var(--red);
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--rose-paper);
+  color: var(--ink);
 }
 
 .works-chapter--creative .section-title,
 .works-chapter--creative .work-title {
-  color: var(--paper);
+  color: var(--ink);
 }
 
 .works-chapter--creative .section-label,
 .works-chapter--creative .work-meta {
-  color: var(--red-on-dark);
+  color: var(--red);
 }
 
 .works-chapter--creative .work-card {
-  border-top-color: rgba(240, 238, 233, 0.24);
+  border-top-color: rgba(11, 11, 11, 0.24);
 }
 
 .works-chapter--creative .work-desc {
-  color: var(--muted-on-dark);
+  color: var(--muted);
 }
 
 .works-chapter--creative .work-stack li {
-  border-color: rgba(240, 238, 233, 0.32);
-  color: var(--muted-on-dark);
+  border-color: rgba(11, 11, 11, 0.28);
+  color: var(--muted);
 }
 
 .works-chapter--creative .btn-ghost {
-  border-color: rgba(240, 238, 233, 0.72);
-  color: var(--paper);
+  border-color: rgba(11, 11, 11, 0.65);
+  color: var(--ink);
 }
 
 .works-chapter--creative .btn-ghost:hover,
 .works-chapter--creative .btn-ghost:focus-visible {
-  background: var(--paper);
-  color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .work-grid {
@@ -2151,9 +2151,9 @@ body::before {
   gap: 2rem;
   margin-top: clamp(4rem, 8vw, 7rem);
   padding: clamp(1.5rem, 3vw, 2.5rem) 0;
-  border-top: 1px solid rgba(240, 238, 233, 0.38);
-  border-bottom: 1px solid rgba(240, 238, 233, 0.38);
-  color: var(--paper);
+  border-top: 1px solid rgba(11, 11, 11, 0.32);
+  border-bottom: 1px solid rgba(11, 11, 11, 0.32);
+  color: var(--ink);
   font-family: var(--serif);
   font-size: clamp(1.7rem, 4vw, 3.5rem);
   line-height: 1;
@@ -2164,7 +2164,7 @@ body::before {
 .creative-portfolio-cta:hover,
 .creative-portfolio-cta:focus-visible {
   padding-inline: 1rem;
-  color: var(--red-on-dark);
+  color: var(--red);
 }
 
 .work-visual--icon img {
