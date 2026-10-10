@@ -828,7 +828,7 @@ p {
   --muted-on-dark: #bec0bd;
   --blush: #e6e1df;
   --rose-paper: #e8e7e3;
-  --creative-paper: #e1e5e4;
+  --creative-paper: #e5e4df;
   --charcoal: var(--ink);
   --grey: var(--muted);
   --line: rgba(13, 14, 15, 0.2);
@@ -2146,26 +2146,28 @@ body::before {
 }
 
 .creative-portfolio-cta {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-top: clamp(4rem, 8vw, 7rem);
-  padding: clamp(1.5rem, 3vw, 2.5rem) 0;
-  border-top: 1px solid rgba(11, 11, 11, 0.32);
-  border-bottom: 1px solid rgba(11, 11, 11, 0.32);
+  justify-content: center;
+  gap: 0.65rem;
+  margin-top: clamp(3rem, 6vw, 5rem);
+  padding: 0.7rem 0.9rem;
+  border: 1px solid rgba(13, 14, 15, 0.65);
   color: var(--ink);
-  font-family: var(--serif);
-  font-size: clamp(1.7rem, 4vw, 3.5rem);
-  line-height: 1;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.07em;
+  line-height: 1.2;
   text-decoration: none;
-  transition: padding 180ms ease, color 180ms ease;
+  text-transform: uppercase;
+  transition: background 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
 .creative-portfolio-cta:hover,
 .creative-portfolio-cta:focus-visible {
-  padding-inline: 1rem;
-  color: var(--red);
+  background: var(--ink);
+  color: var(--paper);
+  transform: translateY(-2px);
 }
 
 .work-visual--icon img {
