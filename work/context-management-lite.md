@@ -13,17 +13,17 @@ tools:
   - Zustand
   - LLMs
 year: 2026
-cover_image: /assets/img/context-management-poster.png
+cover_image: /assets/img/context-management-poster.webp
 cover_alt: Research poster explaining Context Management Lite and its approach to reducing context rot
-design_image: /assets/img/context-management-poster.png
+design_image: /assets/img/context-management-poster.webp
 design_alt: Context Management Lite research poster with diagrams of the memory lifecycle and multi-agent runtime
-built_image: /assets/img/context-management-workspace.png
+built_image: /assets/img/context-management-workspace.webp
 built_alt: Context Management Lite workspace showing a branching conversation graph beside the selected node's prompt and response
 interface_images:
-  - src: /assets/img/context-management-global-context.png
+  - src: /assets/img/context-management-global-context.webp
     alt: Versioned Global Context Panel with project context, role, operating principles and response format controls
     caption: Versioned Global Context Panel
-  - src: /assets/img/context-management-workflow.png
+  - src: /assets/img/context-management-workflow.webp
     alt: Workspace guide explaining shared rules, private branches, merge review and the five specialised AI roles
     caption: Human-controlled memory and merge workflow
 github_url: https://github.com/hazelhidayah/Context-Management-Lite

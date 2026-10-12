@@ -23,7 +23,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
     <div class="portrait-wrap reveal reveal--delay" aria-label="Portrait of Hazel Hidayah">
       <span class="portrait-note">Malay-Chinese, made in Singapore</span>
       <div class="portrait-frame">
-        <img src="{{ '/assets/img/profile.png' | relative_url }}" alt="Hazel Hidayah" />
+        <img src="{{ '/assets/img/profile.webp' | relative_url }}" alt="Hazel Hidayah" />
       </div>
       <span class="portrait-mark" aria-hidden="true">好奇心</span>
     </div>
@@ -78,7 +78,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         <span class="project-year">2026</span>
         <span class="project-arrow" aria-hidden="true">→</span>
         <span class="project-preview" aria-hidden="true">
-          <img src="{{ '/assets/img/context-management-poster.png' | relative_url }}" alt="" loading="lazy" />
+          <img src="{{ '/assets/img/context-management-poster.webp' | relative_url }}" alt="" loading="lazy" />
         </span>
       </a>
 
@@ -88,12 +88,12 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
           <span class="project-kicker">Hackathon finalist · Mobile AI/OCR</span>
           <strong>FactSnap</strong>
           <span>A social fact-checking app built with team “plebs” to make digital literacy engaging.</span>
-          <span class="project-details"><span>Role: Hackathon team member</span><span>Tools: React Native, Expo, Supabase</span></span>
+          <span class="project-details"><span>Role: Frontend wireframing &amp; UI implementation</span><span>Tools: React Native, Expo, Supabase</span></span>
         </span>
         <span class="project-year">2025</span>
         <span class="project-arrow" aria-hidden="true">→</span>
         <span class="project-preview" aria-hidden="true">
-          <img src="{{ '/assets/img/factsnap-community.png' | relative_url }}" alt="" loading="lazy" />
+          <img src="{{ '/assets/img/factsnap-community.webp' | relative_url }}" alt="" loading="lazy" />
         </span>
       </a>
 
@@ -108,7 +108,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         <span class="project-year">2025</span>
         <span class="project-arrow" aria-hidden="true">→</span>
         <span class="project-preview" aria-hidden="true">
-          <img src="{{ '/assets/img/scdf-redesign.png' | relative_url }}" alt="" loading="lazy" />
+          <img src="{{ '/assets/img/scdf-redesign.webp' | relative_url }}" alt="" loading="lazy" />
         </span>
       </a>
     </div>

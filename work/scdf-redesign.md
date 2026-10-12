@@ -11,11 +11,11 @@ tools:
   - Information architecture
   - Prototyping
 year: 2025
-cover_image: /assets/img/scdf-redesign.png
+cover_image: /assets/img/scdf-redesign.webp
 cover_alt: Redesigned SCDF homepage featuring Singapore Civil Defence Force personnel and emergency information
-design_image: /assets/img/scdf-redesign.png
+design_image: /assets/img/scdf-redesign.webp
 design_alt: High-fidelity SCDF website redesign prototype
-built_image: /assets/img/scdf-corporate-philosophy.png
+built_image: /assets/img/scdf-corporate-philosophy.webp
 built_alt: SCDF Corporate Philosophy prototype page with navigation, vision, mission, motto and core values
 comparison_step: 04 / Prototype views
 comparison_title: Key prototype screens

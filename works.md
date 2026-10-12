@@ -14,14 +14,14 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
     <div class="work-grid">
       <article class="work-card work-card--featured">
         <a
-          href="{{ '/assets/img/context-management-poster.png' | relative_url }}"
+          href="{{ '/assets/img/context-management-poster.webp' | relative_url }}"
           class="work-visual work-visual--poster"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Open the Context Management Lite research poster"
         >
           <img
-            src="{{ '/assets/img/context-management-poster.png' | relative_url }}"
+            src="{{ '/assets/img/context-management-poster.webp' | relative_url }}"
             alt="Research poster for Context Management Lite"
             loading="lazy"
           />
@@ -45,7 +45,7 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
           </ul>
           <div class="work-links">
             <a href="https://github.com/hazelhidayah/Context-Management-Lite" class="btn-ghost" target="_blank" rel="noopener noreferrer">View repository</a>
-            <a href="{{ '/assets/img/context-management-poster.png' | relative_url }}" class="btn-ghost" target="_blank" rel="noopener noreferrer">View research poster</a>
+            <a href="{{ '/assets/img/context-management-poster.webp' | relative_url }}" class="btn-ghost" target="_blank" rel="noopener noreferrer">View research poster</a>
           </div>
         </div>
       </article>
@@ -58,7 +58,7 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
           rel="noopener noreferrer"
           aria-label="Open the FactSnap repository"
         >
-          <img src="{{ '/assets/img/factsnap-icon.png' | relative_url }}" alt="FactSnap app icon" loading="lazy" />
+          <img src="{{ '/assets/img/factsnap-icon.webp' | relative_url }}" alt="FactSnap app icon" loading="lazy" />
         </a>
         <div class="work-card__body">
           <div class="work-meta">Hackathon Finalist · Team “plebs” · 2025</div>
@@ -67,6 +67,9 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
             My first hackathon—and we made it to the final round. Built with my teammates from
             “plebs,” FactSnap is a mobile app designed to combat misinformation and promote cyber
             awareness.
+          </p>
+          <p class="work-desc">
+            I created the frontend wireframes and implemented the UI for the app’s main forum page.
           </p>
           <p class="work-desc">
             Users can upload or photograph questionable content and receive instant credibility
@@ -92,7 +95,7 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
           aria-label="Open the interactive SCDF website redesign prototype"
         >
           <img
-            src="{{ '/assets/img/scdf-redesign.png' | relative_url }}"
+            src="{{ '/assets/img/scdf-redesign.webp' | relative_url }}"
             alt="SCDF website redesign homepage featuring Singapore Civil Defence Force personnel"
             loading="lazy"
           />
