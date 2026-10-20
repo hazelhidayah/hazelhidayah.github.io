@@ -472,10 +472,6 @@ p {
   color: var(--ink-muted);
 }
 
-.resume-actions {
-  margin-top: 1.4rem;
-}
-
 /* Background photo block */
 .background-photo {
   position: relative;

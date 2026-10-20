@@ -50,7 +50,6 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       </p>
       <div class="about-actions">
         <a href="{{ '/about/' | relative_url }}" class="text-link">Read my story <span aria-hidden="true">→</span></a>
-        <a href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}" class="btn btn--paper" target="_blank" rel="noopener noreferrer">View résumé <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </div>
@@ -197,7 +196,6 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       <a href="mailto:{{ site.email }}" class="contact-link">Email <span aria-hidden="true">↗</span></a>
       <a href="https://github.com/{{ site.github_username }}" class="contact-link contact-link--icon" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer">{% include social-icon.html platform="github" %}</a>
       <a href="{{ site.linkedin_url }}" class="contact-link contact-link--icon" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">{% include social-icon.html platform="linkedin" %}</a>
-      <a href="{{ '/assets/docs/tech-resume.pdf' | relative_url }}" class="contact-link" target="_blank" rel="noopener noreferrer">Résumé <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </section>
