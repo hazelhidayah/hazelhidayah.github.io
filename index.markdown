@@ -45,8 +45,8 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       </p>
       <p>
         I’m drawn to UI/UX, front-end development and anything that turns a messy problem into a
-        calm, clear experience. When I’m not debugging, I’m probably designing, illustrating or
-        learning a tool I definitely did not need to pick up at 2am.
+        calm, clear experience. When I’m not debugging, I’m probably designing, working out or
+        learning a skill I definitely did not need to pick up at 2am.
       </p>
       <div class="about-actions">
         <a href="{{ '/about/' | relative_url }}" class="text-link">Read my story <span aria-hidden="true">→</span></a>
