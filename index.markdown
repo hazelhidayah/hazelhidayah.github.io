@@ -12,7 +12,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       <p class="hero-role">Coder <span>·</span> Designer <span>·</span> Storyteller</p>
       <p class="hero-intro">
         I blend code, design and a little bit of chaos to make digital experiences that feel
-        thoughtful, useful and distinctly human.
+        thoughtful, useful and human.
       </p>
       <div class="hero-actions">
         <a href="#selected-work" class="btn btn--dark">Explore my work <span aria-hidden="true">↘</span></a>
