@@ -40,7 +40,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
     </div>
     <div class="about-preview__body">
       <p class="lead">
-        I’m a Computer Science student at NUS who started out in Mass Communication — which means
+        I’m a Computer Science student at NUS who started out in Mass Communication, which means
         I care as much about the story and the person as I do about the system underneath.
       </p>
       <p>
