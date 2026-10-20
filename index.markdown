@@ -135,9 +135,9 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         <h3>Understand the problem</h3>
         <p class="skill-group__example">Used to surface and organise user pain points in the SCDF redesign.</p>
         <ul class="skill-tags">
-          <li>User research</li>
-          <li>Usability testing</li>
-          <li>Information architecture</li>
+          <li>{% include tool-icon.html name="research" %}<span>User research</span></li>
+          <li>{% include tool-icon.html name="testing" %}<span>Usability testing</span></li>
+          <li>{% include tool-icon.html name="architecture" %}<span>Information architecture</span></li>
         </ul>
       </article>
 
@@ -147,12 +147,12 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         <h3>Shape the experience</h3>
         <p class="skill-group__example">Used to turn research into flows, interfaces and visual systems.</p>
         <ul class="skill-tags">
-          <li>Figma</li>
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-          <li>Wireframing</li>
-          <li>Prototyping</li>
-          <li>Visual storytelling</li>
+          <li>{% include tool-icon.html name="figma" %}<span>Figma</span></li>
+          <li>{% include tool-icon.html name="photoshop" %}<span>Photoshop</span></li>
+          <li>{% include tool-icon.html name="illustrator" %}<span>Illustrator</span></li>
+          <li>{% include tool-icon.html name="wireframe" %}<span>Wireframing</span></li>
+          <li>{% include tool-icon.html name="prototype" %}<span>Prototyping</span></li>
+          <li>{% include tool-icon.html name="storytelling" %}<span>Visual storytelling</span></li>
         </ul>
       </article>
 
@@ -162,13 +162,13 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         <h3>Make it work</h3>
         <p class="skill-group__example">Used to prototype interfaces, AI-assisted tools and supporting systems.</p>
         <ul class="skill-tags">
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>C</li>
-          <li>SQL</li>
-          <li>HTML</li>
-          <li>CSS</li>
+          <li>{% include tool-icon.html name="javascript" %}<span>JavaScript</span></li>
+          <li>{% include tool-icon.html name="python" %}<span>Python</span></li>
+          <li>{% include tool-icon.html name="java" %}<span>Java</span></li>
+          <li>{% include tool-icon.html name="c" %}<span>C</span></li>
+          <li>{% include tool-icon.html name="sql" %}<span>SQL</span></li>
+          <li>{% include tool-icon.html name="html" %}<span>HTML</span></li>
+          <li>{% include tool-icon.html name="css" %}<span>CSS</span></li>
         </ul>
       </article>
 
@@ -178,11 +178,11 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
         <h3>Prepare it for people</h3>
         <p class="skill-group__example">Used to version, package and check work before it reaches people.</p>
         <ul class="skill-tags">
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Docker</li>
-          <li>CLI / Unix</li>
-          <li>Accessibility</li>
+          <li>{% include tool-icon.html name="git" %}<span>Git</span></li>
+          <li>{% include tool-icon.html name="github" %}<span>GitHub</span></li>
+          <li>{% include tool-icon.html name="docker" %}<span>Docker</span></li>
+          <li>{% include tool-icon.html name="terminal" %}<span>CLI / Unix</span></li>
+          <li>{% include tool-icon.html name="accessibility" %}<span>Accessibility</span></li>
         </ul>
       </article>
     </div>

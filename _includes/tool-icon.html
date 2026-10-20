@@ -1,0 +1,46 @@
+<svg class="tool-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+  {% case include.name %}
+    {% when "research" %}
+      <circle cx="10" cy="9" r="3.2"/><path d="M4.8 18c.7-3.1 2.4-4.7 5.2-4.7 1.2 0 2.2.3 3 .9M15.7 15.7l4 4M17.8 13.6a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/>
+    {% when "testing" %}
+      <path d="m5 4 6.2 14 1.8-5 5-1.8L5 4Z"/><path d="m15.5 16.8 1.7 1.7 3.2-3.7"/>
+    {% when "architecture" %}
+      <rect x="9" y="3" width="6" height="4" rx=".8"/><rect x="3" y="17" width="6" height="4" rx=".8"/><rect x="15" y="17" width="6" height="4" rx=".8"/><path d="M12 7v5M6 17v-5h12v5"/>
+    {% when "figma" %}
+      <path d="M8 3h4v6H8a3 3 0 0 1 0-6Zm4 0h4a3 3 0 0 1 0 6h-4V3Zm0 6h4a3 3 0 1 1-4 0Zm-4 0h4v6H8a3 3 0 0 1 0-6Zm0 6h4v3a3 3 0 1 1-4-3Z"/>
+    {% when "photoshop" %}
+      <rect x="3" y="3" width="18" height="18" rx="2"/><text x="6.2" y="16" class="tool-icon__letters">Ps</text>
+    {% when "illustrator" %}
+      <rect x="3" y="3" width="18" height="18" rx="2"/><text x="6.5" y="16" class="tool-icon__letters">Ai</text>
+    {% when "wireframe" %}
+      <rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9h18M9 9v11M12 13h6M12 17h4"/>
+    {% when "prototype" %}
+      <circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 6h6a4 4 0 0 1 4 4v6M15 13l3 3 3-3"/>
+    {% when "storytelling" %}
+      <rect x="3" y="4" width="18" height="16" rx="1.5"/><circle cx="8" cy="9" r="1.5"/><path d="m5 17 4.2-4.2 3 2.7 2.2-2 4.6 3.5"/>
+    {% when "javascript" %}
+      <rect x="3" y="3" width="18" height="18" rx="1.5"/><text x="7" y="17" class="tool-icon__letters">JS</text>
+    {% when "python" %}
+      <path d="M12 3c-4 0-4.7 1.8-4.7 3.5V9h8.9v2H6.6C4.5 11 3 12.4 3 15s1.5 4 3.4 4h2.1v-3.1c0-2.1 1.8-3.7 3.8-3.7h4.4c1.8 0 3.3-1.5 3.3-3.4V6.5C20 4.5 18.3 3 16 3h-4Z"/><circle cx="15.8" cy="6.2" r=".8" fill="currentColor" stroke="none"/><path d="M12 21c4 0 4.7-1.8 4.7-3.5V15H7.8v-2h9.6c2.1 0 3.6-1.4 3.6-4"/><circle cx="8.2" cy="17.8" r=".8" fill="currentColor" stroke="none"/>
+    {% when "java" %}
+      <path d="M7 11h9v4.2A3.8 3.8 0 0 1 12.2 19h-1.4A3.8 3.8 0 0 1 7 15.2V11Zm9 1h1.5a2 2 0 0 1 0 4H16M6 21h12M10 8c-2-2 2-2.8 0-5M14 8c-2-1.7 2-2.6.5-4.5"/>
+    {% when "c" %}
+      <path d="M18.5 6.2A8 8 0 1 0 18.5 17.8"/><text x="8" y="16.5" class="tool-icon__letters">C</text>
+    {% when "sql" %}
+      <ellipse cx="12" cy="5.5" rx="7" ry="3"/><path d="M5 5.5v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6M5 11.5v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/>
+    {% when "html" %}
+      <path d="m9 6-5 6 5 6M15 6l5 6-5 6M13.5 4 10.5 20"/>
+    {% when "css" %}
+      <path d="M8 5H5v14h3M16 5h3v14h-3M14 8c-.5-1-1.3-1.5-2.5-1.5-1.4 0-2.5.8-2.5 2 0 3.2 6 1.5 6 5.2 0 2-1.6 3.3-3.7 3.3-1.5 0-2.7-.6-3.3-1.8"/>
+    {% when "git" %}
+      <circle cx="7" cy="5" r="2"/><circle cx="7" cy="19" r="2"/><circle cx="17" cy="9" r="2"/><path d="M7 7v10M9 7c0 2.2 1.8 4 4 4h2"/>
+    {% when "github" %}
+      <path class="tool-icon__fill" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 6.82a9.5 9.5 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/>
+    {% when "docker" %}
+      <path d="M3 12h16c0 4.8-3.4 8-8.5 8C6 20 3.5 17.4 3 12Zm16 1c1.4 0 2.2-.5 2.8-1.5-.8-.5-1.7-.6-2.7-.3M6 8h3v3H6V8Zm4 0h3v3h-3V8Zm4 0h3v3h-3V8Zm-4-4h3v3h-3V4Z"/>
+    {% when "terminal" %}
+      <rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3M12 16h5"/>
+    {% when "accessibility" %}
+      <circle cx="12" cy="4.5" r="2"/><path d="M5 8h14M12 7v6M8 21l4-8 4 8"/>
+  {% endcase %}
+</svg>

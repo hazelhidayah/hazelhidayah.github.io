@@ -1854,6 +1854,32 @@ body::before {
   letter-spacing: 0.025em;
 }
 
+.tool-icon {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex: 0 0 auto;
+  overflow: visible;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.tool-icon__fill {
+  fill: currentColor;
+  stroke: none;
+}
+
+.tool-icon__letters {
+  fill: currentColor;
+  stroke: none;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
 .contact-strip {
   position: relative;
   overflow: hidden;
