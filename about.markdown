@@ -11,5 +11,12 @@ building things that make everyday life easier. I studied Mass Communication at 
 Polytechnic, so I bring both technical and storytelling perspectives, even while I’m still working
 through the occasional bout of imposter syndrome.
 
-I find design and computing endlessly fascinating, so I keep learning, making and nerding out about
-both :)
+I’m Malay-Chinese and Singaporean. I never learnt Chinese, and spoken languages have never been my
+strongest suit. At the moment, the languages I’m most confident in are Java and Python. Make of that
+what you will.
+
+Outside the screen, I love gymming and playing badminton. I’m also fond of thrifting because it is
+both economical and sustainable, and I have a very soft spot for cats and bunnies.
+
+More than anything, I genuinely enjoy learning, experiencing as much of life as I can and doing
+whatever I take on to the best of my abilities.
