@@ -2979,61 +2979,6 @@ body::before {
   text-transform: uppercase;
 }
 
-.about-manifesto {
-  position: relative;
-  overflow: hidden;
-  padding: clamp(4.5rem, 9vw, 8rem) 0;
-  background: var(--ink);
-  color: var(--paper);
-}
-
-.about-manifesto::after {
-  content: "好奇心";
-  position: absolute;
-  right: clamp(1.5rem, 6vw, 6rem);
-  top: 50%;
-  color: var(--red-on-dark);
-  font-family: "Noto Serif SC", var(--serif);
-  font-size: clamp(1rem, 2vw, 1.45rem);
-  letter-spacing: 0.18em;
-  opacity: 0.72;
-  transform: translateY(-50%);
-  writing-mode: vertical-rl;
-}
-
-.about-manifesto__inner {
-  padding-right: clamp(3rem, 9vw, 8rem);
-}
-
-.about-manifesto__label {
-  margin: 0 0 1.4rem;
-  color: var(--red-on-dark);
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.about-manifesto__statement {
-  max-width: 19ch;
-  margin: 0;
-  color: var(--paper);
-  font-family: var(--serif);
-  font-size: clamp(2rem, 5vw, 4.6rem);
-  line-height: 1.08;
-}
-
-.about-manifesto__statement em {
-  color: var(--red-on-dark);
-  font-style: normal;
-}
-
-.about-manifesto__note {
-  margin: 2.25rem 0 0;
-  color: var(--muted-on-dark);
-  font-size: clamp(0.92rem, 1.5vw, 1.05rem);
-}
-
 .about-pieces {
   padding: clamp(4.5rem, 9vw, 8rem) 0;
   background: var(--paper-deep);
@@ -3224,10 +3169,6 @@ body::before {
     width: 92%;
   }
 
-  .about-manifesto__statement {
-    max-width: 16ch;
-  }
-
   .about-pieces__heading {
     align-items: flex-start;
     flex-direction: column;
@@ -3263,15 +3204,6 @@ body::before {
 
   .about-editorial__portrait {
     width: 100%;
-  }
-
-  .about-manifesto::after {
-    right: 1rem;
-    opacity: 0.42;
-  }
-
-  .about-manifesto__inner {
-    padding-right: 2.25rem;
   }
 
   .about-tile {

@@ -31,18 +31,6 @@ description: A few things that shaped how Hazel Hidayah builds, designs, and thi
   </div>
 </section>
 
-<section class="about-manifesto" aria-label="Personal introduction">
-  <div class="section-inner about-manifesto__inner">
-    <p class="about-manifesto__label">One brain, two worlds</p>
-    <p class="about-manifesto__statement">
-      I care as much about the <em>story and the person</em> as I do about the system underneath.
-    </p>
-    <p class="about-manifesto__note">
-      Designer who codes. Coder who designs. Always learning.
-    </p>
-  </div>
-</section>
-
 <section class="about-pieces" aria-labelledby="pieces-title">
   <div class="section-inner">
     <header class="about-pieces__heading">
