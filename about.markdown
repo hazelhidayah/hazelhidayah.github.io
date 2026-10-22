@@ -23,7 +23,7 @@ description: A few things that shaped how I build, design, and think.
 
       <figure class="about-editorial__portrait">
         <div class="about-editorial__portrait-frame">
-          <img src="{{ '/assets/img/profile.webp' | relative_url }}" alt="Me outdoors in Singapore at night" width="1536" height="1024" />
+          <img src="{{ '/assets/img/about-portrait.webp' | relative_url }}" alt="Me posing inside a train carriage" width="1087" height="1447" />
         </div>
         <figcaption>Preview into my lil brain</figcaption>
       </figure>
