@@ -104,9 +104,9 @@ description: A few things that shaped how I build, design, and think.
         <p class="about-tile__number">05 / Language report</p>
         <h3>Java, Python,<br />and not Chinese.</h3>
         <p>
-          I’m Malay-Chinese and Singaporean. I never learnt Chinese, and spoken languages have never
-          been my strongest suit. For now, the languages I’m most confident in are Java and Python.
-          Make of that what you will.
+          I’m Malay-Chinese and Singaporean. Ironically, as Chinese as I look, I never learnt the
+          language, and spoken languages have never been my strongest suit. For now, the languages
+          I’m most confident in are Java and Python. Make of that what you will.
         </p>
       </article>
 
