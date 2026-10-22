@@ -141,8 +141,8 @@ description: A few things that shaped how I build, design, and think.
           src="{{ '/assets/img/about-outlook.webp' | relative_url }}"
           alt=""
           aria-hidden="true"
-          width="800"
-          height="824"
+          width="900"
+          height="927"
         />
         <p class="about-tile__aside">Learning, experiencing and doing my best.</p>
       </article>

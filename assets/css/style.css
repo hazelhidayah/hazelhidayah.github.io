@@ -3084,9 +3084,9 @@ body::before {
   z-index: 0;
   right: clamp(2rem, 5vw, 5rem);
   bottom: clamp(1.75rem, 4vw, 3rem);
-  width: clamp(11rem, 22vw, 18rem);
+  width: clamp(13rem, 25vw, 21rem);
   height: auto;
-  opacity: 0.72;
+  opacity: 0.78;
   pointer-events: none;
 }
 
@@ -3271,9 +3271,9 @@ body::before {
     right: auto;
     bottom: auto;
     display: block;
-    width: min(58%, 15rem);
+    width: min(68%, 17rem);
     margin: -0.5rem 0 0 auto;
-    opacity: 0.75;
+    opacity: 0.8;
   }
 }
 
