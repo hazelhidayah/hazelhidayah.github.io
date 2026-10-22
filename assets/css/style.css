@@ -3135,7 +3135,7 @@ body::before {
 
 .about-rules {
   display: grid;
-  gap: 1rem;
+  gap: clamp(1.25rem, 2vw, 1.75rem);
   margin: 0;
   padding-left: 1.15rem;
   color: var(--muted-on-dark);
