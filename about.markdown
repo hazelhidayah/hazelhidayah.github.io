@@ -105,7 +105,7 @@ description: A few things that shaped how I build, design, and think.
 
       <article class="about-tile about-tile--languages about-tile--dark">
         <p class="about-tile__number">05 / Language report</p>
-        <h3>Java, Python,<br />and not Chinese.</h3>
+        <h3>Languages</h3>
         <p>
           I’m Malay-Chinese and Singaporean. Ironically, as Chinese as I look, I never learnt the
           language. I learnt Malay as my mother tongue, although calling myself proficient would be
