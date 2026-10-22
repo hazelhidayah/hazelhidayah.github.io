@@ -118,8 +118,8 @@ description: A few things that shaped how I build, design, and think.
         <p class="about-tile__number">06 / Away from the screen</p>
         <h3>Things I make time for</h3>
         <ul class="about-interests" aria-label="Personal interests">
-          <li><span>Move</span>Gymming &amp; badminton</li>
-          <li><span>Find</span>Thrifting, because it is economical &amp; sustainable</li>
+          <li><span>Move</span>Gymming, badminton &amp; floorball</li>
+          <li><span>Find</span>Thrifting, sewing &amp; crocheting</li>
           <li><span>Love</span>Cats &amp; bunnies</li>
         </ul>
       </article>
@@ -127,8 +127,8 @@ description: A few things that shaped how I build, design, and think.
       <article class="about-tile about-tile--outlook">
         <p class="about-tile__number">07 / How I move through life</p>
         <blockquote>
-          “I genuinely enjoy the process of learning, experiencing as much of life as I can and doing
-          whatever I take on to the best of my abilities.”
+          I genuinely enjoy the process of learning, experiencing as much of life as I can and doing
+          whatever I take on to the best of my abilities.
         </blockquote>
         <p class="about-tile__aside">Learning, experiencing and doing my best.</p>
       </article>

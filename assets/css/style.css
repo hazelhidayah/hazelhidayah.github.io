@@ -1956,6 +1956,16 @@ body::before {
   margin: 0;
 }
 
+.footer-inner > p:first-of-type,
+.footer-top {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.footer-inner > p:nth-of-type(2) {
+  text-align: center;
+}
+
 .footer-top {
   color: var(--paper);
   text-decoration: none;
@@ -3093,6 +3103,10 @@ body::before {
 .about-tile--life h3 {
   max-width: none;
   font-size: clamp(1.5rem, 3vw, 2.65rem);
+}
+
+.about-tile--gap h3 {
+  max-width: none;
 }
 
 .about-tile > p:not(.about-tile__number, .about-tile__aside, .about-tile__footnote) {
