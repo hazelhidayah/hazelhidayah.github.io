@@ -3090,6 +3090,11 @@ body::before {
   color: var(--paper);
 }
 
+.about-tile--life h3 {
+  max-width: none;
+  font-size: clamp(1.5rem, 3vw, 2.65rem);
+}
+
 .about-tile > p:not(.about-tile__number, .about-tile__aside) {
   max-width: 58ch;
   margin: 0;
