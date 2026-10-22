@@ -136,6 +136,14 @@ description: A few things that shaped how I build, design, and think.
           I genuinely enjoy the process of learning, experiencing as much of life as I can and doing
           whatever I take on to the best of my abilities.
         </p>
+        <img
+          class="about-outlook__illustration"
+          src="{{ '/assets/img/about-outlook.webp' | relative_url }}"
+          alt=""
+          aria-hidden="true"
+          width="800"
+          height="824"
+        />
         <p class="about-tile__aside">Learning, experiencing and doing my best.</p>
       </article>
     </div>

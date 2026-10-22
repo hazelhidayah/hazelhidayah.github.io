@@ -3070,6 +3070,24 @@ body::before {
 
 .about-tile--outlook {
   grid-column: 1 / -1;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-tile--outlook > :not(.about-outlook__illustration) {
+  position: relative;
+  z-index: 1;
+}
+
+.about-outlook__illustration {
+  position: absolute;
+  z-index: 0;
+  right: clamp(2rem, 5vw, 5rem);
+  bottom: clamp(1.75rem, 4vw, 3rem);
+  width: clamp(11rem, 22vw, 18rem);
+  height: auto;
+  opacity: 0.72;
+  pointer-events: none;
 }
 
 .about-tile__number {
@@ -3246,6 +3264,16 @@ body::before {
   .about-tile--life,
   .about-tile--outlook {
     grid-column: 1 / -1;
+  }
+
+  .about-outlook__illustration {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: min(58%, 15rem);
+    margin: -0.5rem 0 0 auto;
+    opacity: 0.75;
   }
 }
 
