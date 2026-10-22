@@ -74,7 +74,7 @@ description: A few things that shaped how I build, design, and think.
 
       <article class="about-tile about-tile--gap">
         <p class="about-tile__number">03 / The gap year</p>
-        <h3>A pause that was not very still.</h3>
+        <h3>A year to remember.</h3>
         <p>
           After poly, I took a gap year and got a sneak peek into adulthood. I worked part time while
           studying part time for a Specialist Diploma in Data Science (Artificial Intelligence) at
@@ -142,7 +142,7 @@ description: A few things that shaped how I build, design, and think.
           alt=""
           aria-hidden="true"
           width="900"
-          height="927"
+          height="900"
         />
         <p class="about-tile__aside">Learning, experiencing and doing my best.</p>
       </article>
