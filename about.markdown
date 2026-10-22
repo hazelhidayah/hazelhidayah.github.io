@@ -105,8 +105,9 @@ description: A few things that shaped how I build, design, and think.
         <h3>Java, Python,<br />and not Chinese.</h3>
         <p>
           I’m Malay-Chinese and Singaporean. Ironically, as Chinese as I look, I never learnt the
-          language, and spoken languages have never been my strongest suit. For now, the languages
-          I’m most confident in are Java and Python. Make of that what you will.
+          language. I learnt Malay as my mother tongue, although calling myself proficient would be
+          a stretch. Spoken languages have never been my strongest suit. For now, the languages I’m
+          most confident in are Java and Python. Make of that what you will.
         </p>
       </article>
 
