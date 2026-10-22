@@ -44,8 +44,10 @@ description: A few things that shaped how I build, design, and think.
         <p>
           I was the artsy-fartsy kid who chose Mass Communication at Ngee Ann Polytechnic, initially
           thinking I would become a journalist or filmmaker. What stayed with me was how much I enjoy
-          learning about people and the human experience, along with a knack for making things look
-          and feel right.
+          learning about people and the human experience. I also discovered that I was actually pretty
+          good at designing within structured rules and constraints. I love that design lets me make
+          the inner workings of a mind tangible, turning how someone thinks and moves through an idea
+          into something others can see and use.
         </p>
         <p>
           Whether I’m working with makeup on my face, paint on a canvas or a web app on screen, I enjoy
@@ -56,7 +58,6 @@ description: A few things that shaped how I build, design, and think.
 
       <article class="about-tile about-tile--rule about-tile--dark">
         <p class="about-tile__number">02 / My favourite UI/UX rule</p>
-        <h3>Good UI gets out of the way.</h3>
         <p>
           You know an interface is good when you do not notice it. Most people only notice UI when it
           is bad enough to get in their way.
@@ -64,7 +65,7 @@ description: A few things that shaped how I build, design, and think.
         <p>
           My other rule is that the information hierarchy and contrast should still be clear without
           colour. If a design needs colour to create every highlight or point of emphasis, it is back
-          to the colouring board.
+          to the drawing board.
         </p>
       </article>
 
@@ -126,10 +127,10 @@ description: A few things that shaped how I build, design, and think.
 
       <article class="about-tile about-tile--outlook">
         <p class="about-tile__number">07 / How I move through life</p>
-        <blockquote>
+        <p class="about-outlook__statement">
           I genuinely enjoy the process of learning, experiencing as much of life as I can and doing
           whatever I take on to the best of my abilities.
-        </blockquote>
+        </p>
         <p class="about-tile__aside">Learning, experiencing and doing my best.</p>
       </article>
     </div>
