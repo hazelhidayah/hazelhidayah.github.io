@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /about/
-description: A few things that shaped how Hazel Hidayah builds, designs, and thinks.
+description: A few things that shaped how I build, design, and think.
 ---
 
 <section class="about-editorial" aria-labelledby="about-title">
@@ -13,7 +13,7 @@ description: A few things that shaped how Hazel Hidayah builds, designs, and thi
       <div class="about-editorial__copy">
         <div class="about-editorial__title-card">
           <span class="about-editorial__edition" aria-hidden="true">01 / HH</span>
-          <h1 id="about-title"><span>About</span><span>Hazel.</span></h1>
+          <h1 id="about-title"><span>About</span><span>me.</span></h1>
           <span class="about-editorial__han" lang="zh">好奇心</span>
         </div>
         <p class="about-editorial__lead">
@@ -23,7 +23,7 @@ description: A few things that shaped how Hazel Hidayah builds, designs, and thi
 
       <figure class="about-editorial__portrait">
         <div class="about-editorial__portrait-frame">
-          <img src="{{ '/assets/img/profile.webp' | relative_url }}" alt="Hazel outdoors in Singapore at night" width="1536" height="1024" />
+          <img src="{{ '/assets/img/profile.webp' | relative_url }}" alt="Me outdoors in Singapore at night" width="1536" height="1024" />
         </div>
         <figcaption>Malay-Chinese, made in Singapore</figcaption>
       </figure>
@@ -35,7 +35,7 @@ description: A few things that shaped how Hazel Hidayah builds, designs, and thi
   <div class="section-inner">
     <header class="about-pieces__heading">
       <p class="section-number">A few pieces of me <span class="section-number__han" lang="zh">· 我</span></p>
-      <h2 id="pieces-title">The person<br />behind the pixels.</h2>
+      <h2 id="pieces-title">Me, beyond<br />the pixels.</h2>
     </header>
 
     <div class="about-mosaic">
