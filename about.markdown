@@ -57,25 +57,29 @@ description: A few things that shaped how I build, design, and think.
       </article>
 
       <article class="about-tile about-tile--rule about-tile--dark">
-        <p class="about-tile__number">02 / My favourite UI/UX rule</p>
-        <p>
-          You know an interface is good when you do not notice it. Most people only notice UI when it
-          is bad enough to get in their way.
-        </p>
-        <p>
-          My other rule is that the information hierarchy and contrast should still be clear without
-          colour. If a design needs colour to create every highlight or point of emphasis, it is back
-          to the drawing board.
-        </p>
+        <p class="about-tile__number">02 / My favourite general rules</p>
+        <ul class="about-rules">
+          <li>
+            Good UI gets out of the way. You know an interface is good when you do not notice it;
+            most people only notice UI when it is bad enough to get in their way.
+          </li>
+          <li>
+            Information hierarchy and contrast should still be clear without colour. If a design
+            needs colour to create every highlight or point of emphasis, it is back to the drawing board.
+          </li>
+          <li>You’ll never know unless you try.</li>
+          <li>If you can handle the worst-case scenario, you can handle it.</li>
+        </ul>
       </article>
 
       <article class="about-tile about-tile--gap">
         <p class="about-tile__number">03 / The gap year</p>
         <h3>A pause that was not very still.</h3>
         <p>
-          After poly, I took a gap year to learn about life. I worked part time while studying part
-          time for a Specialist Diploma in Data Science (Artificial Intelligence) at Singapore
-          Polytechnic.
+          After poly, I took a gap year and got a sneak peek into adulthood. I worked part time while
+          studying part time for a Specialist Diploma in Data Science (Artificial Intelligence) at
+          Singapore Polytechnic. Along the way, I met people from all walks of life, learnt a lot about
+          life in general and figured out how to balance work, school and everything in between.
         </p>
         <p class="about-tile__footnote">
           Did I regret the gap year? No. Would I do it again? …No.
@@ -119,9 +123,10 @@ description: A few things that shaped how I build, design, and think.
         <p class="about-tile__number">06 / Away from the screen</p>
         <h3>Things I make time for</h3>
         <ul class="about-interests" aria-label="Personal interests">
-          <li><span>Move</span>Gymming, badminton &amp; floorball</li>
+          <li><span>Move</span>Gymming, badminton, floorball &amp; climbing</li>
           <li><span>Find</span>Thrifting, sewing &amp; crocheting</li>
-          <li><span>Love</span>Cats &amp; bunnies</li>
+          <li><span>Style</span>Makeup &amp; tattoos</li>
+          <li><span>Love</span>Cats, bunnies &amp; hamsters</li>
         </ul>
       </article>
 

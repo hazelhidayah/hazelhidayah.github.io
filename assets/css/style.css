@@ -3133,6 +3133,23 @@ body::before {
   color: var(--muted-on-dark);
 }
 
+.about-rules {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding-left: 1.15rem;
+  color: var(--muted-on-dark);
+}
+
+.about-rules li {
+  padding-left: 0.25rem;
+  line-height: 1.65;
+}
+
+.about-rules li::marker {
+  color: var(--red-on-dark);
+}
+
 .about-interests {
   display: grid;
   gap: 0;
