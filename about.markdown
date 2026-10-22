@@ -25,7 +25,7 @@ description: A few things that shaped how I build, design, and think.
         <div class="about-editorial__portrait-frame">
           <img src="{{ '/assets/img/profile.webp' | relative_url }}" alt="Me outdoors in Singapore at night" width="1536" height="1024" />
         </div>
-        <figcaption>Malay-Chinese, made in Singapore</figcaption>
+        <figcaption>Preview into my lil brain</figcaption>
       </figure>
     </div>
   </div>
