@@ -3045,8 +3045,8 @@ body::before {
 .about-tile__illustration {
   position: absolute;
   z-index: 0;
-  top: clamp(-4.5rem, -5vw, -2.75rem);
-  right: clamp(-1.5rem, -2vw, -0.5rem);
+  top: -1rem;
+  right: 1.5rem;
   width: clamp(11rem, 20vw, 16rem);
   height: auto;
   opacity: 0.68;
@@ -3248,8 +3248,8 @@ body::before {
   }
 
   .about-tile__illustration {
-    top: -2.75rem;
-    right: -1.5rem;
+    top: -0.5rem;
+    right: 0.5rem;
     width: 9.5rem;
     opacity: 0.52;
   }
