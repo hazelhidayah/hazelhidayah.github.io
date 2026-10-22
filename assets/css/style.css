@@ -3027,6 +3027,32 @@ body::before {
   background: var(--blush);
 }
 
+.about-tile--nus {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-tile--nus > :not(.about-tile__illustration) {
+  position: relative;
+  z-index: 1;
+}
+
+.about-tile--nus .about-tile__number,
+.about-tile--nus h3 {
+  padding-right: clamp(7rem, 15vw, 12rem);
+}
+
+.about-tile__illustration {
+  position: absolute;
+  z-index: 0;
+  top: clamp(-4.5rem, -5vw, -2.75rem);
+  right: clamp(-1.5rem, -2vw, -0.5rem);
+  width: clamp(11rem, 20vw, 16rem);
+  height: auto;
+  opacity: 0.68;
+  pointer-events: none;
+}
+
 .about-tile--dark {
   background: var(--ink);
   color: var(--muted-on-dark);
@@ -3200,6 +3226,18 @@ body::before {
 
   .about-tile {
     padding: 1.5rem;
+  }
+
+  .about-tile--nus .about-tile__number,
+  .about-tile--nus h3 {
+    padding-right: 5rem;
+  }
+
+  .about-tile__illustration {
+    top: -2.75rem;
+    right: -1.5rem;
+    width: 9.5rem;
+    opacity: 0.52;
   }
 
   .about-interests li {

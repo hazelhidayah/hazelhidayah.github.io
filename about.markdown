@@ -80,6 +80,12 @@ description: A few things that shaped how I build, design, and think.
 
       <article class="about-tile about-tile--nus">
         <p class="about-tile__number">04 / The unexpected turn</p>
+        <img
+          class="about-tile__illustration"
+          src="{{ '/assets/img/about-computer-science.png' | relative_url }}"
+          alt=""
+          aria-hidden="true"
+        />
         <h3>Somehow, Computer Science.</h3>
         <p>
           I never expected to find myself studying Computer Science at NUS, but I did it! I came here
