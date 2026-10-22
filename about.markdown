@@ -61,6 +61,11 @@ description: A few things that shaped how I build, design, and think.
           You know an interface is good when you do not notice it. Most people only notice UI when it
           is bad enough to get in their way.
         </p>
+        <p>
+          My other rule is that the information hierarchy and contrast should still be clear without
+          colour. If a design needs colour to create every highlight or point of emphasis, it is back
+          to the colouring board.
+        </p>
       </article>
 
       <article class="about-tile about-tile--gap">
