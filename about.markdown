@@ -76,6 +76,9 @@ description: A few things that shaped how I build, design, and think.
           time for a Specialist Diploma in Data Science (Artificial Intelligence) at Singapore
           Polytechnic.
         </p>
+        <p class="about-tile__footnote">
+          Did I regret the gap year? No. Would I do it again? …No.
+        </p>
       </article>
 
       <article class="about-tile about-tile--nus">

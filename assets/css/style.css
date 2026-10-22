@@ -3095,15 +3095,24 @@ body::before {
   font-size: clamp(1.5rem, 3vw, 2.65rem);
 }
 
-.about-tile > p:not(.about-tile__number, .about-tile__aside) {
+.about-tile > p:not(.about-tile__number, .about-tile__aside, .about-tile__footnote) {
   max-width: 58ch;
   margin: 0;
   color: var(--muted);
   line-height: 1.8;
 }
 
-.about-tile > p:not(.about-tile__number, .about-tile__aside) + p:not(.about-tile__number, .about-tile__aside) {
+.about-tile > p:not(.about-tile__number, .about-tile__aside, .about-tile__footnote) + p:not(.about-tile__number, .about-tile__aside, .about-tile__footnote) {
   margin-top: 1.2rem;
+}
+
+.about-tile__footnote {
+  margin: 1.5rem 0 0;
+  color: var(--red);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
 }
 
 .about-tile--dark > p:not(.about-tile__number) {
