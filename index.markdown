@@ -66,8 +66,23 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
     </div>
 
     <div class="project-list">
-      <a class="project-row" href="{{ '/work/context-management-lite/' | relative_url }}">
+      <a class="project-row" href="{{ '/work/aegis-leo/' | relative_url }}">
         <span class="project-index">01</span>
+        <span class="project-info">
+          <span class="project-kicker">AI &amp; aerospace · Solo hackathon build</span>
+          <strong>Aegis LEO</strong>
+          <span>An explainable conjunction-triage console that helps satellite operators find urgent collision risks without drowning in alarms.</span>
+          <span class="project-details"><span>Role: Solo builder</span><span>Tools: Python, Streamlit, machine learning</span></span>
+        </span>
+        <span class="project-year">2026</span>
+        <span class="project-arrow" aria-hidden="true">→</span>
+        <span class="project-preview" aria-hidden="true">
+          <img src="{{ '/assets/img/aegis-leo-dashboard.webp' | relative_url }}" alt="" loading="lazy" />
+        </span>
+      </a>
+
+      <a class="project-row" href="{{ '/work/context-management-lite/' | relative_url }}">
+        <span class="project-index">02</span>
         <span class="project-info">
           <span class="project-kicker">AI systems · Summer research</span>
           <strong>Context Management Lite</strong>
@@ -82,7 +97,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       </a>
 
       <a class="project-row" href="{{ '/work/factsnap/' | relative_url }}">
-        <span class="project-index">02</span>
+        <span class="project-index">03</span>
         <span class="project-info">
           <span class="project-kicker">Hackathon finalist · Mobile AI/OCR</span>
           <strong>FactSnap</strong>
@@ -97,7 +112,7 @@ description: "Hazel Hidayah — Computer Science student, designer, and creative
       </a>
 
       <a class="project-row" href="{{ '/work/scdf-redesign/' | relative_url }}">
-        <span class="project-index">03</span>
+        <span class="project-index">04</span>
         <span class="project-info">
           <span class="project-kicker">UI/UX · Web platform</span>
           <strong>SCDF Website Redesign</strong>

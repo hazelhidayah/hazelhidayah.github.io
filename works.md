@@ -14,6 +14,41 @@ hero_subtitle: A mix of tech experiments and visual work. Some are polished, som
     <div class="work-grid">
       <article class="work-card work-card--featured">
         <a
+          href="{{ '/work/aegis-leo/' | relative_url }}"
+          class="work-visual work-visual--landscape"
+          aria-label="Read the Aegis LEO case study"
+        >
+          <img
+            src="{{ '/assets/img/aegis-leo-dashboard.webp' | relative_url }}"
+            alt="Aegis LEO operations dashboard with risk filters, fleet KPIs and prioritised conjunctions"
+            loading="lazy"
+          />
+        </a>
+        <div class="work-card__body">
+          <div class="work-meta">Solo Build · Autonomous SG · AI &amp; Aerospace · 2026</div>
+          <h3 class="work-title">Aegis LEO: Autonomous Conjunction Triage Platform</h3>
+          <p class="work-desc">
+            Built solo in six hours alongside 300+ builders at Autonomous SG 2026, Aegis LEO is
+            an AI-assisted satellite collision-avoidance console that helps operators triage large
+            volumes of Conjunction Data Messages without losing urgent risks in alarm noise.
+          </p>
+          <p class="work-desc">
+            Its tiered machine-learning workflow supports live monitoring, archive search,
+            explainable and deduplicated alerts, 3D trajectory analysis, fleet-wide KPIs and
+            model-performance auditing while keeping the final decision with human operators.
+          </p>
+          <ul class="work-stack" aria-label="Technologies and project capabilities">
+            <li>Python</li><li>Streamlit</li><li>Machine learning</li><li>CDM telemetry</li><li>3D risk visualisation</li><li>Model explainability</li>
+          </ul>
+          <div class="work-links">
+            <a href="{{ '/work/aegis-leo/' | relative_url }}" class="btn-ghost">Read case study</a>
+            <a href="https://aegisleo.streamlit.app/" class="btn-ghost" target="_blank" rel="noopener noreferrer">Open live platform</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card work-card--featured">
+        <a
           href="{{ '/assets/img/context-management-poster.webp' | relative_url }}"
           class="work-visual work-visual--poster"
           target="_blank"
